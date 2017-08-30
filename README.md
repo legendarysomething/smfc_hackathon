@@ -1,1 +1,1 @@
-# smfc_hackathon
+# Selangor Smart City & Future Ecommerce Hackathon
