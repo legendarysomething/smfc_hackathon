@@ -1,8 +1,9 @@
 <?php 
 
+    $page_header = "Hackathon";
 
 
- ?>
+?>
 
  <head>
 
@@ -12,18 +13,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hackathon!!</title>
+    <title><?=$page_header?></title>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap / jQuery -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Open Sans font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Custom CSS -->
     <style>
     body {
-        padding-top: 70px;
+        /*padding-top: 70px;*/
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
     </style>
