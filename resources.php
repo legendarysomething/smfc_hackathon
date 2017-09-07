@@ -52,3 +52,32 @@
     });
 
 </script>
+
+
+
+
+<style type="text/css">
+    #map{
+      height: 400px;
+      widows: 100%;
+    }
+  </style>
+
+
+  <h1>My Google Map</h1>
+  <div id="map"></div>
+  <script type="text/javascript">
+    function initMap(){
+      var options = {
+        zoom: 8,
+        center: {lat:3.1390,lng:101.6869}
+      }
+
+      var map = new google.maps.Map(document.getElementById('map'),options)
+;
+    }
+  </script>
+
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY_HERE&callback=initMap"
+    async defer></script>
