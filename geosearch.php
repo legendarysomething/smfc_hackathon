@@ -26,7 +26,7 @@ include_once('header.php');
 				<h3>Places Nearby</h3>
 	  			<div class="thingsBox thinsSpace">
 					<div class="thingsImage">
-						<img src="img/things/things-1.jpg" alt="Image things">
+						<img src="img/listing/listing1.jpg" alt="Image things">
 						<div class="thingsMask">
 							<ul class="list-inline rating">
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -42,13 +42,13 @@ include_once('header.php');
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Hotel, Restaurant</a></li>
+							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysiah</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="thingsBox thinsSpace">
 					<div class="thingsImage">
-						<img src="img/things/things-1.jpg" alt="Image things">
+						<img src="img/listing/listing2.jpg" alt="Image things">
 						<div class="thingsMask">
 							<ul class="list-inline rating">
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -64,13 +64,13 @@ include_once('header.php');
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Hotel, Restaurant</a></li>
+							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysia</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="thingsBox thinsSpace">
 					<div class="thingsImage">
-						<img src="img/things/things-1.jpg" alt="Image things">
+						<img src="img/listing/listing3.jpg" alt="Image things">
 						<div class="thingsMask">
 							<ul class="list-inline rating">
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -86,13 +86,13 @@ include_once('header.php');
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Hotel, Restaurant</a></li>
+							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysia</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="thingsBox thinsSpace">
 					<div class="thingsImage">
-						<img src="img/things/things-1.jpg" alt="Image things">
+						<img src="img/listing/listing4.jpg" alt="Image things">
 						<div class="thingsMask">
 							<ul class="list-inline rating">
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -108,13 +108,13 @@ include_once('header.php');
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Hotel, Restaurant</a></li>
+							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysia</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="thingsBox thinsSpace">
 					<div class="thingsImage">
-						<img src="img/things/things-1.jpg" alt="Image things">
+						<img src="img/listing/listing5.jpg" alt="Image things">
 						<div class="thingsMask">
 							<ul class="list-inline rating">
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -130,7 +130,7 @@ include_once('header.php');
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Hotel, Restaurant</a></li>
+							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysia</a></li>
 						</ul>
 					</div>
 				</div>
@@ -226,14 +226,14 @@ include_once('header.php');
 
 
       	var locations = [
-		      ['Park Spot 1', 3.055148, 101.583127, 1],
+		      ['Park Spot 1', 3.113902, 101.604686, 1],
 		      ['Park Spot 2', 3.052784, 101.585726, 2],
 		      ['Park Spot 3', 3.058614, 101.587765, 3],
 		      ['Park Spot 4', 3.060628, 101.583988, 4],
 		      ['Park Spot 5', 3.057607, 101.579761, 5]
 		    ];
 
-        var subang = {lat: 3.0567, lng: 101.5851};
+        var subang = {lat: 3.1124459, lng: 101.6044029};
 
         
 
