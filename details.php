@@ -8,6 +8,9 @@
 	}else{
 		$data = $json[1];
 	}
+
+	$features = explode(',',$data['features']);
+
 ?>
 <style type="text/css">
 	.nopadding {
@@ -104,7 +107,11 @@
 					<div class="detailsInfoBox">
 						<h3>Parking Spot Type</h3>
 						<ul class="list-inline featuresItems">
-							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i> <?=$data['features'];?></li>
+						<br>
+							<?php foreach ($features as $item) { ?>
+								<li><i class="fa fa-check-circle-o" aria-hidden="true"></i> <?=$item;?></li><br>
+							<?php } ?>
+							
 							<!-- <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Street Parking</li>
 							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Alcohol</li>
 							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Vegetarian</li>
