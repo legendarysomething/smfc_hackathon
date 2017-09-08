@@ -130,25 +130,25 @@
                   </li>
                   <li class=""><a href="blog.html">blog </a></li>
                   <li class=" dropdown singleDrop">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">admin <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">settings <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <ul class="dropdown-menu dropdown-menu-right">
                       <li><a href="dashboard.html">Dashboard</a></li>
+                      <li><a href="profile.php">My Profile</a></li>
                       <li><a href="add-listings.html">Add Listing</a></li>
                       <li><a href="edit-listings.html">Edit Listing</a></li>
                       <li><a href="listings.html">My Listings</a></li>
-                      <li><a href="profile.php">My Profile</a></li>
                       <li><a href="oders.html">My Orders</a></li>
                     </ul>
                   </li>
                 </ul>
             </div>
-            <?php if(!$islogin){?>
+            <?php if($showUser){?>
             <button class="btn btn-default navbar-btn" type="button" data-toggle="modal" data-target="#loginModal">
             <?php }else{ ?>
             <button class="btn btn-default navbar-btn" type="button" data-toggle="modal" onclick="location.href ='logout.php'">
             <?php } ?>
-                <i class="fa fa-sign-in" aria-hidden="true"></i>
                 <span><?=$islogin?></span>
+                <i class="fa fa-sign-in" aria-hidden="true"></i>
             </button>
           </div>
         </nav>

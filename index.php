@@ -4,7 +4,8 @@
 ?>
 <!-- MAP SECTION -->
 <section class="clearfix p0">
-	<div id="map-canvas"></div>
+	<!-- <div id="map-canvas"></div> -->
+	<div style="background-image: url(img/hero.jpg);width:1350px;height: 700px;"></div>
 </section>
 <!-- CATEGORY SECTION -->
 <section class="clearfix bg-light">
@@ -98,58 +99,6 @@
 						<li><a href="category-list-right.html">Health & Beauty Products</a></li>
 						<li><a href="category-list-left.html">Jewellery</a></li>
 						<li><a href="category-list-full.html">Bags</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 col-xs-12">
-				<div class="categoryItem">
-					<i class="icon-listy icon-medicine-book"></i>
-					<h2>Books & Magazines</h2>
-					<ul class="list-unstyled">
-						<li><a href="category-grid-full.html">Equipment</a></li>
-						<li><a href="category-grid.html">Instruments</a></li>
-						<li><a href="category-grid-right.html">Children's</a></li>
-						<li><a href="listing-details-right.html">Games & Consoles</a></li>
-						<li><a href="category-grid.html">Travel, Events</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 col-xs-12">
-				<div class="categoryItem">
-					<i class="icon-listy icon-suitcase"></i>
-					<h2>Job Openings</h2>
-					<ul class="list-unstyled">
-						<li><a href="category-grid-full.html">Delivery/ Collections</a></li>
-						<li><a href="category-grid.html">BPO/ Telecaller</a></li>
-						<li><a href="category-grid-right.html">Data Entry / Back Office</a></li>
-						<li><a href="category-grid.html">Marketing</a></li>
-						<li><a href="category-grid-full.html">Sales</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 col-xs-12">
-				<div class="categoryItem">
-					<i class="icon-listy icon-music"></i>
-					<h2>Music & Arts</h2>
-					<ul class="list-unstyled">
-						<li><a href="category-list-right.html">Drums</a></li>
-						<li><a href="category-list-full.html">Keyboard</a></li>
-						<li><a href="category-list-left.html">Flute</a></li>
-						<li><a href="category-list-right.html">Guitar</a></li>
-						<li><a href="category-list-full.html">Bass Guitar</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 col-xs-12">
-				<div class="categoryItem">
-					<i class="icon-listy icon-house"></i>
-					<h2>Home Appliances</h2>
-					<ul class="list-unstyled">
-						<li><a href="category-grid-right.html">Furniture</a></li>
-						<li><a href="category-grid.html">Electricity, AC,</a></li>
-						<li><a href="category-grid-full.html">Bathroom & Garden</a></li>
-						<li><a href="category-grid.html">Home Appliances</a></li>
-						<li><a href="category-grid-full.html">Other Home Items</a></li>
 					</ul>
 				</div>
 			</div>

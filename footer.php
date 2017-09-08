@@ -81,13 +81,13 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Log In to your Account</h4>
+          <h4 class="modal-title">Login</h4>
         </div>
         <div class="modal-body">
-          <form class="loginForm">
+          <form class="loginForm" action="login.php" method="post">
             <div class="form-group">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <input type="email" class="form-control" id="email" placeholder="Email">
+              <i class="fa fa-user " aria-hidden="true"></i>
+              <input type="username" class="form-control" id="username" placeholder="Username">
             </div>
             <div class="form-group">
               <i class="fa fa-lock" aria-hidden="true"></i>
@@ -97,13 +97,13 @@
               <button type="submit" class="btn btn-primary btn-block">Log In</button>
             </div>
             <div class="checkbox">
-              <label><input type="checkbox"> Remember me</label>
-              <a href="#" class="pull-right link">Fogot Password?</a>
+              <label><input type="checkbox">Remember Me</label>
+              <a href="#" class="pull-right link">Forgot Password?</a>
             </div>
           </form>
         </div>
         <div class="modal-footer">
-          <p>Don’t have an Account? <a href="#" class="link">Sign up</a></p>
+          <p>Don’t have an Account? <a href="register.php" class="link">Sign up</a></p>
         </div>
       </div>
     </div>
