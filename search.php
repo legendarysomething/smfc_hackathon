@@ -38,39 +38,20 @@ else
 	<form>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4 col-xs-12">
-					<div class="form-group">
-						<div class="input-group">
-							<div class="input-group-addon">Find</div>
-							<input type="text" class="form-control" id="findItem" placeholder="What are you looking for?">
-							<div class="input-group-addon addon-right"></div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-xs-12">
-					<div class="form-group">
-						<div class="input-group">
-							<div class="input-group-addon">Near</div>
-							<input type="text" class="form-control" id="nearLocation" placeholder="Location">
-							<div class="input-group-addon addon-right"><i class="icon-listy icon-target" aria-hidden="true"></i></div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-xs-12">
-					<div class="searchPart">
-						<div class="searchPartInner">
-							<div class="searchPartTitle">Category</div>
-							<div class="searchSelectboxes">
-								<select name="guiest_id32" id="guiest_id32" class="select-drop">
-									<option value="0">All Categories</option>
-									<option value="1">All Categories 1</option>
-									<option value="2">All Categories 2</option>
-									<option value="3">All Categories 3</option>            
-								</select>
+				<div class="col-sm-12 col-xs-12">
+					<form class="form-inline" action="search.php" method="get">
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" id="exampleInputEmail1" name="location" placeholder="Enter a location">
+								<div class="input-group-addon addon-right"></div>
+								<span class="input-group-btn">
+							        <button class="btn btn-primary" type="submit">Go!</button>
+							      </span>
 							</div>
 						</div>
-					</div>
+					</form>
 				</div>
+				
 			</div>
 		</div>
 	</form>
@@ -111,7 +92,7 @@ else
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<h2><a href="blog-details.html" style="color: #222222">Shaded parking spot in KJ</a> 
+								<h2><a href="details.php?id=1" style="color: #222222">Shaded parking spot in KJ</a> 
 								<p>15 Jalan SS 25/4 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -137,7 +118,7 @@ else
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<h2><a href="blog-details.html" style="color: #222222">Gated & shaded parking</a> 
+								<h2><a href="details.php?id=2" style="color: #222222">Gated & shaded parking</a> 
 								<p>42 Jalan SS 4c/4 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -162,7 +143,7 @@ else
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<h2><a href="blog-details.html" style="color: #222222">Car porch parking</a> 
+								<h2><a href="details.php?id=3" style="color: #222222">Car porch parking</a> 
 								<p>32 Jalan SS 24/3 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -186,7 +167,7 @@ else
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<h2><a href="blog-details.html" style="color: #222222">2 spot parking in Kelana</a> 
+								<h2><a href="details.php?id=4" style="color: #222222">2 spot parking in Kelana</a> 
 								<p>46 Jalan SS 25/10 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -210,7 +191,7 @@ else
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<h2><a href="blog-details.html" style="color: #222222">Kelana Jaya parking (outside)</a> 
+								<h2><a href="details.php?id=5" style="color: #222222">Kelana Jaya parking (outside)</a> 
 								<p>2 Jalan SS 4c/18 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -227,7 +208,7 @@ else
 						</div>
 						<div class="col-sm-7 col-xs-12">
 							<div class="categoryDetails">
-								<h2><a href="blog-details.html" style="color: #222222">1 Spot Outside Parking in Kelana</a> 
+								<h2><a href="details.php?id=6" style="color: #222222">1 Spot Outside Parking in Kelana</a> 
 								<p>20 Jalan SS 4b/18 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -244,7 +225,7 @@ else
 						</div>
 						<div class="col-sm-7 col-xs-12">
 							<div class="categoryDetails">
-								<h2><a href="blog-details.html" style="color: #222222">Shaded 1 spot parking</a> 
+								<h2><a href="details.php?id=7" style="color: #222222">Shaded 1 spot parking</a> 
 								<p>5 Jalan SS 4b/1 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -261,7 +242,7 @@ else
 						</div>
 						<div class="col-sm-7 col-xs-12">
 							<div class="categoryDetails">
-								<h2><a href="blog-details.html" style="color: #222222">Shaded Porch Parking</a> 
+								<h2><a href="details.php?id=8" style="color: #222222">Shaded Porch Parking</a> 
 								<p>55 Jalan SS 4/10 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
