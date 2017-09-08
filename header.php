@@ -131,7 +131,7 @@
                       <li><a href="add-listings.html">Add Listing</a></li>
                       <li><a href="edit-listings.html">Edit Listing</a></li>
                       <li><a href="listings.html">My Listings</a></li>
-                      <li><a href="profile.html">My Profile</a></li>
+                      <li><a href="profile.php">My Profile</a></li>
                       <li><a href="oders.html">My Orders</a></li>
                     </ul>
                   </li>
