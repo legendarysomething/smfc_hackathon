@@ -81,7 +81,9 @@
                   <!-- <li class=""><a href="geosearch.php">quick find </a></li> -->
                   <li class=""><a href="login.php">get listed </a></li>
                   <li class=""><a href="index.php#how-it-works">how it works? </a></li>
+                  <?php if (!$showUser) { ?>
                   <li class=""><a href="profile.php">my account </a></li>
+                  <?php } ?>
                 </ul>
             </div>
             <?php if($showUser){?>
