@@ -19,10 +19,18 @@ include_once('header.php');
 						</div>
 					</div>
 					<div class="profileUserInfo bt profileName">
-						<p>Your Current Plan</p>
-						<h2>Platinum Package</h2>
+						<p>Your Current Rating</p>
+						<div>
+							<span class="glyphicon glyphicon-star-empty" style="color:gold;"></span>
+							<span class="glyphicon glyphicon-star-empty" style="color:gold;"></span>
+							<span class="glyphicon glyphicon-star-empty" style="color:gold;"></span>
+							<span class="glyphicon glyphicon-star-empty" style="color:gold;"></span>
+							<span class="glyphicon glyphicon-star-empty" style="color:gold;"></span>
+							<span>5.0</span>
+						</div>
+						<!--<h2>Platinum Package</h2>
 						<h5>Next Payment: <span>15/01/2018</span></h5>
-						<a href="profile.html#" class="btn btn-primary">Change</a>
+						<a href="profile.html#" class="btn btn-primary">Change</a>-->
 					</div>
 				</div>
 			</div>
