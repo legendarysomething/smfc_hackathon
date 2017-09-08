@@ -71,20 +71,6 @@ include_once('header.php');
 									</div>
 								</div>
 							</div>
-							<div class="formSection">
-								<div class="cardBox">
-									<div class="paymentMethod">
-										<img src="img/business/paypal.png" alt="Image paypal">
-									</div>
-									<ul class="list-inline">
-										<li><a href="sign-up.html#"><img src="img/business/visa.jpg" alt="Image card"></a></li>
-										<li><a href="sign-up.html#"><img src="img/business/master-card.jpg" alt="Image card"></a></li>
-										<li><a href="sign-up.html#"><img src="img/business/american-express.jpg" alt="Image card"></a></li>
-										<li><a href="sign-up.html#"><img src="img/business/discover.jpg" alt="Image card"></a></li>
-									</ul>
-								</div>
-								<p><span>Payments can be made using any major credit card, without the need for a PayPal account</span>. If you already have a PayPal account, you can also pay with PayPal funds or through your bank account. We don't keep any credit card information stored on our site. No tax is added to your order. For more information <a href="https://www.paypal.com">www.paypal.com</a></p>
-							</div>
 						</form>
 					</div>
 				</div>

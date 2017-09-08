@@ -87,11 +87,11 @@
           <form class="loginForm" action="login.php" method="post">
             <div class="form-group">
               <i class="fa fa-user " aria-hidden="true"></i>
-              <input type="username" class="form-control" id="username" placeholder="Username">
+              <input type="username" class="form-control" id="username" placeholder="Username" required>
             </div>
             <div class="form-group">
               <i class="fa fa-lock" aria-hidden="true"></i>
-              <input type="password" class="form-control" id="pwd" placeholder="Password">
+              <input type="password" class="form-control" id="pwd" placeholder="Password" required>
             </div>
             <div class="form-group">
               <button type="submit" class="btn btn-primary btn-block">Log In</button>

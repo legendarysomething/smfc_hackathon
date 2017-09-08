@@ -4,7 +4,7 @@
 		header("location: /smfc_hackathon");
 		exit;
 	}
-	if($_POST){
+	if(isset($_POST)){
 		$_SESSION["islogin"] = true;
 		header("location: /smfc_hackathon");
 		exit;
