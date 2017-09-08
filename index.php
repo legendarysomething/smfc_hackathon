@@ -63,7 +63,7 @@
 					<div class="howWorksInfo text-center">
 						<p>Step 1</p>
 						<h3>Find A Parking Spot</h3>
-						<p>Use our ‘Quick Find’ feature or search manually</p>
+						<p>Enter a location and search</p>
 				</div>
 			</div>
 		</div>
