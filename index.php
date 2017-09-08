@@ -39,32 +39,12 @@
 	<div class="container">
 	  <div class="row">
 	    <div class="col-xs-12 ">
-	      <div class="bg-search-white">
+	      <div class="bg-search-white col-xs-12">
 	        <form class="form-inline" action="category-grid.html" method="">
-	          <div class="form-group">
-	            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter your keywords">
+	          <div class="form-group col-xs-12 col-lg-9">
+	            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter a location">
 	          </div>
-	          <div class="form-group">
-	            <div class="searchSelectbox">
-	              <select name="guiest_id3" id="guiest_id3" class="select-drop">
-	                <option value="0">All Location</option>
-	                <option value="1">U.S.A</option>
-	                <option value="2">U.K</option>
-	                <option value="3">ASIA</option>
-	              </select>
-	            </div>
-	          </div>
-	          <div class="form-group">
-	            <div class="searchSelectbox">
-	              <select name="guiest_id4" id="guiest_id4" class="select-drop">
-	                <option value="0">All Categories</option>
-	                <option value="1">All Categories 1</option>
-	                <option value="2">All Categories 2</option>
-	                <option value="3">All Categories 3</option>
-	              </select>
-	            </div>
-	          </div>
-	          <div class="form-group">
+	          <div class="form-group col-xs-12 col-lg-3">
 	            <button type="submit" class="btn btn-primary">Search </button>
 	          </div>
 	        </form>
