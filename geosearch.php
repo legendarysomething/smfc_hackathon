@@ -10,15 +10,136 @@ include_once('header.php');
         height: 500px;
         width: 100%;
        }
+
+
     </style>
   
   	<div class="container-fluid">
   		<div class="row">
-  			<div class="col-sm-8 col-xs-12">
+  			<div class="col-sm-8 col-xs-12" style="position: fixed;">
 				<div id="map"></div>
   			</div>
-  			<div class="col-sm-8 col-xs-12">
+
+			<!-- Content Start -->
+  			<div class="col-sm-4 col-xs-12 col-sm-offset-8 col-xs-offset-12">
+				<br>
+				<h3>Places Nearby</h3>
+	  			<div class="thingsBox thinsSpace">
+					<div class="thingsImage">
+						<img src="img/things/things-1.jpg" alt="Image things">
+						<div class="thingsMask">
+							<ul class="list-inline rating">
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+							</ul>
+							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
+							<p>10 Bay Street Toronto Ontario Canada</p>
+						</div>
+					</div>
+					<div class="thingsCaption ">
+						<ul class="list-inline captionItem">
+							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
+							<li><a href="category-list-full.html">Hotel, Restaurant</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="thingsBox thinsSpace">
+					<div class="thingsImage">
+						<img src="img/things/things-1.jpg" alt="Image things">
+						<div class="thingsMask">
+							<ul class="list-inline rating">
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+							</ul>
+							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
+							<p>10 Bay Street Toronto Ontario Canada</p>
+						</div>
+					</div>
+					<div class="thingsCaption ">
+						<ul class="list-inline captionItem">
+							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
+							<li><a href="category-list-full.html">Hotel, Restaurant</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="thingsBox thinsSpace">
+					<div class="thingsImage">
+						<img src="img/things/things-1.jpg" alt="Image things">
+						<div class="thingsMask">
+							<ul class="list-inline rating">
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+							</ul>
+							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
+							<p>10 Bay Street Toronto Ontario Canada</p>
+						</div>
+					</div>
+					<div class="thingsCaption ">
+						<ul class="list-inline captionItem">
+							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
+							<li><a href="category-list-full.html">Hotel, Restaurant</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="thingsBox thinsSpace">
+					<div class="thingsImage">
+						<img src="img/things/things-1.jpg" alt="Image things">
+						<div class="thingsMask">
+							<ul class="list-inline rating">
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+							</ul>
+							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
+							<p>10 Bay Street Toronto Ontario Canada</p>
+						</div>
+					</div>
+					<div class="thingsCaption ">
+						<ul class="list-inline captionItem">
+							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
+							<li><a href="category-list-full.html">Hotel, Restaurant</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="thingsBox thinsSpace">
+					<div class="thingsImage">
+						<img src="img/things/things-1.jpg" alt="Image things">
+						<div class="thingsMask">
+							<ul class="list-inline rating">
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+							</ul>
+							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
+							<p>10 Bay Street Toronto Ontario Canada</p>
+						</div>
+					</div>
+					<div class="thingsCaption ">
+						<ul class="list-inline captionItem">
+							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
+							<li><a href="category-list-full.html">Hotel, Restaurant</a></li>
+						</ul>
+					</div>
+				</div>
+
   			</div>
+			<!-- content end -->
+
+
+
   		</div>
   	</div>
     
@@ -95,7 +216,7 @@ include_once('header.php');
             {name: 'Styled Map'});
 
       	// Content for onclick
-      	var popupcontent = '<div class="infobox-close"><i class="fa fa-close"></i></div>' + '<div id="iw-container" style="background-image: url(https://imgur.com/6MYjrnA.png);">' + '<div class="iw-content">' + '<ul class="list-inline rating">' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '</ul>' + '<div class="iw-subTitle">Title</div>' + '<p>address</p>' + '</div>' + '<div class="iw-bottom-gradient"></div>' + '</div>';
+      	var popupcontent = '<div class="infobox-close"><i class="fa fa-close"></i></div>' + '<div id="iw-container" style="background-image: url(\"img/listing/listing1\");">' + '<div class="iw-content">' + '<ul class="list-inline rating">' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '</ul>' + '<div class="iw-subTitle">Title</div>' + '<p>address</p>' + '</div>' + '<div class="iw-bottom-gradient"></div>' + '</div>';
 
       	
       	var oc_content1 = "Hello World";
@@ -136,7 +257,7 @@ include_once('header.php');
 	            // add click event
 	            google.maps.event.addListener(marker, 'click', function() {
 	                infowindow = new google.maps.InfoWindow({
-	                    content: popupcontent
+	                    content: oc_content1
 	                });
 	                infowindow.open(map, marker);
 	            });
@@ -165,10 +286,6 @@ include_once('header.php');
 
     </script>
 
-
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4&callback=initMap">
-    </script>
 
 
 <?php 

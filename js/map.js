@@ -57,6 +57,8 @@ var mapStyles = [{
         "color": "#2196f3"
     }]
 }];
+
+
 var center = new google.maps.LatLng(-33.924351, 151.156788);
 
 function initialize() {
