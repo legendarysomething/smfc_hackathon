@@ -13,7 +13,7 @@
 </section>
 
 <!-- LISTINGS DETAILS TITLE SECTION -->
-<section class="clearfix paddingAdjustBottom" style="padding-top:30px;">
+<section class="clearfix paddingAdjustBottom" style="padding:30px 0;">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
@@ -29,9 +29,9 @@
 							<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 						</ul>
 						<span>( 5 Reviews )</span>
-						<ul class="list-inline captionItem">
+						<!--<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-						</ul>
+						</ul>-->
 						<a href="listing-details-left.html#" class="btn btn-primary">Book Now</a>
 					</div>
 				</div>
