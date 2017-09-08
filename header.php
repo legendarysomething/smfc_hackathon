@@ -1,7 +1,15 @@
 <?php 
-    // error_reporting(0); (to turn off warnings if wanted)
+    // Start the session
+    session_start();
+    error_reporting(0); //(to turn off warnings if wanted)
     if(!isset($page_header)){
         $page_header = "Hackathon";
+    }
+    if($_SESSION['islogin']){
+        $islogin = "Logout";
+    }else{
+        $islogin = "Login";
+        $showUser = true;
     }
 ?>
 <!DOCTYPE html>
@@ -35,7 +43,6 @@
   <link href="img/favicon.png" rel="shortcut icon">
 </head>
 <body class="body-wrapper">
-  <div class="page-loader" style="background: url(img/preloader.gif) center no-repeat #fff;"></div>
   <div class="main-wrapper">
     <!-- HEADER -->
     <header id="pageTop" class="header">
@@ -135,7 +142,14 @@
                   </li>
                 </ul>
             </div>
-            <button class="btn btn-default navbar-btn" type="button" data-toggle="modal" data-target="#loginModal"> <span>Login</span> </button>
+            <?php if(!$islogin){?>
+            <button class="btn btn-default navbar-btn" type="button" data-toggle="modal" data-target="#loginModal">
+            <?php }else{ ?>
+            <button class="btn btn-default navbar-btn" type="button" data-toggle="modal" onclick="location.href ='logout.php'">
+            <?php } ?>
+                <i class="fa fa-sign-in" aria-hidden="true"></i>
+                <span><?=$islogin?></span>
+            </button>
           </div>
         </nav>
       </div>

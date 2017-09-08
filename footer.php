@@ -1,3 +1,4 @@
+    <div class="page-loader" style="background: url(img/preloader.gif) center no-repeat #fff;"></div>
     <!-- FOOTER -->
     <footer style="background-image: url(img/background/bg-footer.jpg);">
       <!-- FOOTER INFO -->
