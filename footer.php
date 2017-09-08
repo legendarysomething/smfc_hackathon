@@ -5,13 +5,14 @@
       <div class="clearfix footerInfo">
         <div class="container">
           <div class="row">
-            <div class="col-sm-7 col-xs-12">
+            <div class="col-sm-9 col-xs-12">
               <div class="footerText">
                 <a href="index.html" class="footerLogo"><img src="img/logo-footer.png" alt="Footer Logo"></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                <p>ParkSini offers a revolutionary parking solution. <br> What’s better than democratizing parking by sharing your empty car porch?
+                </p>
                 <ul class="list-styled list-contact">
-                  <li><i class="fa fa-phone" aria-hidden="true"></i>[88] 657 524 332</li>
-                  <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">info@listy.com</a></li>
+                  <li><i class="fa fa-phone" aria-hidden="true"></i>+6012 345 6789</li>
+                  <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">info@parksini.com</a></li>
                 </ul>
               </div>
             </div>
@@ -21,15 +22,13 @@
               </div>
               <div class="useLink">
                 <ul class="list-unstyled">
-                  <li><a href="dashboard.html">Dashboard</a></li>
-                  <li><a href="sign-up.html">Create Account</a></li>
-                  <li><a href="login.html">Login</a></li>
-                  <li><a href="add-listings.html">Add Listing</a></li>
-                  <li><a href="edit-listings.html">Edit Listing</a></li>
+                  <li><a href="aboutus.php">About Us</a></li>
+                  <li><a href="login.php">Get Listed</a></li>
+                  <li><a href="faq.php">How It Works</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-sm-2 col-xs-12">
+            <!-- <div class="col-sm-2 col-xs-12">
               <div class="footerInfoTitle">
                 <h4>Company</h4>
               </div>
@@ -42,7 +41,7 @@
                   <li><a href="pricing-table.html">Pricing</a></li>
                 </ul>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -63,7 +62,8 @@
                   </div>
                   <div class="col-sm-7 col-sm-pull-5 col-xs-12">
                     <div class="copyRightText">
-                      <p>Copyright &copy; 2017. All Rights Reserved by <a href="#">Abdus</a></p>
+                      <p>Copyright &copy; 2017. All Rights Reserved by 
+ <a href="#">Legendary Something</a></p>
                     </div>
                   </div>
                 </div>
