@@ -60,7 +60,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html"><img src="img/logo-blue.png" alt="logo"></a>
+              <a class="navbar-brand" href="index.php"><img src="img/logo-blue.png" alt="logo"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -68,7 +68,7 @@
                     <li class=" dropdown singleDrop">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">home <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <ul class="dropdown-menu dropdown-menu-right">
-                      <li><a href="index.html">Map Version</a></li>
+                      <li><a href="index.php">Map Version</a></li>
                       <li><a href="index-2.html">Travel Version</a></li>
                       <li><a href="index-3.html">Automobile Version</a></li>
                     </ul>
@@ -122,8 +122,6 @@
                     </ul>
                   </li>
                   <li class=""><a href="blog.html">blog </a></li>
-                  <li class=""><a href="register.php">Register </a></li>
-                  <li class=""><a href="login.php">Login </a></li>
                   <li class=" dropdown singleDrop">
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">admin <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <ul class="dropdown-menu dropdown-menu-right">
@@ -137,7 +135,7 @@
                   </li>
                 </ul>
             </div>
-            <button class="btn btn-default navbar-btn" type="button" data-toggle="modal" data-target="#loginModal"> + <span>Add Listing</span> </button>
+            <button class="btn btn-default navbar-btn" type="button" data-toggle="modal" data-target="#loginModal"> <span>Login</span> </button>
           </div>
         </nav>
       </div>
