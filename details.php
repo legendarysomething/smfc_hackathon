@@ -1,6 +1,13 @@
 <?php 
 	$page_header = 'Home';
 	include_once('header.php');
+	$str = file_get_contents('data.json');
+	$json = json_decode($str, true);
+	if($_GET['id']){
+		$data = $json[$_GET['id']];
+	}else{
+		$data = $json[1];
+	}
 ?>
 <style type="text/css">
 	.nopadding {
@@ -30,8 +37,8 @@
 		<div class="row">
 			<div class="col-xs-12 col-lg-8 col-md-12">
 				<div class="listingTitleArea">
-					<h2>Glory Hole Doughnuts</h2>
-					<p>1150 Queen Street West Toronto <br>Ontario M6J 1J3, Canada</p>
+					<h2><?=$data['title'];?></h2>
+					<p><?=$data['address'];?><br><?=$data['location'];?></p>
 					<div class="listingReview">
 						<ul class="list-inline rating">
 							<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -46,8 +53,8 @@
 			</div>
 			<div class="col-xs-12 col-lg-4 col-md-12">
 				<div class="listSidebar">
-					<h3><strong>RM5</strong> per day</h3>
-					<form>
+					<h3><strong>RM<?=$data['price'];?></strong> per day</h3>
+					<form action="payment.php" method="post">
 						<div class="form-group col-xs-12 col-lg-6 nopadding">
 							<div class="dateSelect">
 								<label for="starting_day">Starting Day</label>
@@ -88,22 +95,22 @@
 		<div class="row">
 			<div class="col-sm-8 col-xs-12">
 				<div class="listDetailsInfo">
-					<div class="detailsInfoBox">
+					<!-- <div class="detailsInfoBox">
 						<h3>About This Listing</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p>
 						<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est. </p>
 						<p>Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui </p>
-					</div>
+					</div> -->
 					<div class="detailsInfoBox">
-						<h3>Features</h3>
+						<h3>Parking Spot Type</h3>
 						<ul class="list-inline featuresItems">
-							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Wi-Fi</li>
-							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Street Parking</li>
+							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i> <?=$data['features'];?></li>
+							<!-- <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Street Parking</li>
 							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Alcohol</li>
 							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Vegetarian</li>
 							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Reservations</li>
 							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Pets Friendly</li>
-							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Accept Credit Card</li>
+							<li><i class="fa fa-check-circle-o" aria-hidden="true"></i>  Accept Credit Card</li> -->
 						</ul>
 					</div>
 					<div class="detailsInfoBox">
@@ -160,51 +167,9 @@
 							</div>
 						</div>
 					</div>
-					<!--<div class="detailsInfoBox">
-						<h3>Write A Review </h3>
-						<div class="listingReview">
-							<span>( 5 Reviews )</span>
-							<ul class="list-inline rating rating-review">
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-							</ul>
-						</div>
-						<form action="listing-details-left.html#">
-							<div class="formSection formSpace">
-								<div class="form-group">
-									<textarea class="form-control" rows="3" placeholder="Comment"></textarea>
-								</div>
-								<div class="form-group mb0">
-									<button type="submit" class="btn btn-primary">Send Review</button>
-								</div>
-							</div>
-						</form>
-					</div>-->
 				</div>
 			</div>
 			<div class="col-sm-4 col-xs-12">
-				<!--<div class="listSidebar">
-					<h3>Location</h3>
-					<div class="contactInfo">
-						<ul class="list-unstyled list-address">
-							<li>
-								<i class="fa fa-map-marker" aria-hidden="true"></i>
-								16/14 Babor Road, Mohammad pur <br> Dhaka, Bangladesh
-							</li>
-							<li>
-								<i class="fa fa-phone" aria-hidden="true"></i>
-								+55 654 545 122 <br> +55 654 545 123
-							</li>
-							<li>
-								<i class="fa fa-envelope" aria-hidden="true"></i>
-								<a href="listing-details-left.html#">info @example.com</a> <a href="listing-details-left.html#">info@startravelbangladesh.com</a>
-							</li>
-						</ul>
-					</div>
-				</div>-->
 				<div class="listSidebar">
 					<h3>Opening Hours</h3>
 					<ul class="list-unstyled sidebarList">
@@ -238,9 +203,9 @@
 						</li>
 					</ul>
 				</div>
-				<div class="clearfix map-sidebar map-right">
+				<!-- <div class="clearfix map-sidebar map-right">
 					<div id="map" style="position:relative; margin: 0;padding: 0;height: 538px; max-width: none;"></div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
