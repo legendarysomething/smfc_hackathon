@@ -33,6 +33,8 @@ else
  ?>
 
 
+<!-- <div class="infobox-close"><i class="fa fa-close"></i></div><div id="iw-container" style="background-image: url(img\\listing\\listing1.jpg);"><div class="iw-content"><ul class="list-inline rating"><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li></ul><div class="iw-subTitle">Title</div><p>address</p></div><div class="iw-bottom-gradient"></div></div> -->
+
 <!-- CATEGORY SEARCH SECTION -->
 <section class="clearfix searchArea banerInfo searchAreaGray">
 	<form>
@@ -94,8 +96,10 @@ else
 								</ul>
 								<h2><a href="details.php?id=1" style="color: #222222">Shaded parking spot in KJ</a> 
 								<p>15 Jalan SS 25/4 <span class="placeName">Kelana Jaya</span></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
+								
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
+
+								<a href="details.php?id=1" class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</a>
 
 							</div>
 						</div>
@@ -120,8 +124,11 @@ else
 								</ul>
 								<h2><a href="details.php?id=2" style="color: #222222">Gated & shaded parking</a> 
 								<p>42 Jalan SS 4c/4 <span class="placeName">Kelana Jaya</span></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
-								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
+								
+								<p>Owner : Su-Meng Y. <br> Avaliability : Every Weekday 8am to 7pm</p>
+
+								<a href="details.php?id=2" class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</a>
+
 							</div>
 						</div>
 					</div>
@@ -145,8 +152,10 @@ else
 								</ul>
 								<h2><a href="details.php?id=3" style="color: #222222">Car porch parking</a> 
 								<p>32 Jalan SS 24/3 <span class="placeName">Kelana Jaya</span></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
-								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
+								
+								<p>Owner : Jih Chuan L. <br> Avaliability : Every Weekday 8am to 7pm</p>
+
+								<a href="details.php?id=3" class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -169,8 +178,10 @@ else
 								</ul>
 								<h2><a href="details.php?id=4" style="color: #222222">2 spot parking in Kelana</a> 
 								<p>46 Jalan SS 25/10 <span class="placeName">Kelana Jaya</span></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
-								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
+								
+								<p>Owner : Novi K. <br> Avaliability : Every Weekday 8am to 7pm</p>
+
+								<a href="details.php?id=4" class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -193,8 +204,10 @@ else
 								</ul>
 								<h2><a href="details.php?id=5" style="color: #222222">Kelana Jaya parking (outside)</a> 
 								<p>2 Jalan SS 4c/18 <span class="placeName">Kelana Jaya</span></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
-								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
+								
+								<p>Owner : Jaz L. <br> Avaliability : Every Weekday 8am to 7pm</p>
+
+								<a href="details.php?id=5" class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -210,8 +223,10 @@ else
 							<div class="categoryDetails">
 								<h2><a href="details.php?id=6" style="color: #222222">1 Spot Outside Parking in Kelana</a> 
 								<p>20 Jalan SS 4b/18 <span class="placeName">Kelana Jaya</span></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
-								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
+								
+								<p>Owner : Deric C. <br> Avaliability : Every Weekday 8am to 7pm</p>
+
+								<a href="details.php?id=6" class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -227,8 +242,10 @@ else
 							<div class="categoryDetails">
 								<h2><a href="details.php?id=7" style="color: #222222">Shaded 1 spot parking</a> 
 								<p>5 Jalan SS 4b/1 <span class="placeName">Kelana Jaya</span></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
-								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
+								
+								<p>Owner : Faraq L. <br> Avaliability : Every Weekday 8am to 7pm</p>
+
+								<a href="details.php?id=7" class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -244,8 +261,10 @@ else
 							<div class="categoryDetails">
 								<h2><a href="details.php?id=8" style="color: #222222">Shaded Porch Parking</a> 
 								<p>55 Jalan SS 4/10 <span class="placeName">Kelana Jaya</span></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
-								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
+								
+								<p>Owner : Yohann l. <br> Avaliability : Every Weekday 8am to 7pm</p>
+
+								<a href="details.php?id=8" class="btn btn-primary">&nbsp;&nbsp;Details&nbsp;&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -350,12 +369,63 @@ else
             {name: 'Styled Map'});
 
       	// Content for onclick
-      	var popupcontent = '<div class="infobox-close"><i class="fa fa-close"></i></div>' + '<div id="iw-container" style="background-image: url(\"img/listing/listing1\");">' + '<div class="iw-content">' + '<ul class="list-inline rating">' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '</ul>' + '<div class="iw-subTitle">Title</div>' + '<p>address</p>' + '</div>' + '<div class="iw-bottom-gradient"></div>' + '</div>';
+      	var popupcontent = `
+      	<div class="infobox-close">
+      		<i class="fa fa-close"></i>
+      	</div>
+      	<div id="iw-container" style="background-image: url({url});">
+      		<div class="iw-content">
+      			<ul class="list-inline rating">
+      				<li><i class="fa fa-star" aria-hidden="true"></i></li>
+      				<li><i class="fa fa-star" aria-hidden="true"></i></li>
+      				<li><i class="fa fa-star" aria-hidden="true"></i></li>
+      				<li><i class="fa fa-star" aria-hidden="true"></i></li>
+      				<li><i class="fa fa-star" aria-hidden="true"></i></li>
+  				</ul>
+  				<div class="iw-subTitle">{desc}</div>
+  					<a href="details.php?{id}" class="btn btn-primary">&nbsp; Get Details &nbsp;</a>
+				</div>
+				<div class="iw-bottom-gradient"></div>
+			</div>
+		</div>`;
 
-      	
-      	var oc_content1 = "Hello World";
+		// img/listing/listing1.jpg
+		// id=1
+      	var oc_content = []
+      	oc_content[0] = popupcontent.replace("{url}", "img/listing/listing1.jpg");
+      	oc_content[0] = oc_content[0].replace("{id}", "id=0");
+      	oc_content[0] = oc_content[0].replace("{desc}", "Shaded parking spot in KJ");
+
+      	oc_content[1] = popupcontent.replace("{url}", "img/listing/listing2.jpg");
+      	oc_content[1] = oc_content[1].replace("{id}", "id=1");
+      	oc_content[1] = oc_content[1].replace("{desc}", "Gated & shaded parking");
+
+      	oc_content[2] = popupcontent.replace("{url}", "img/listing/listing3.jpg");
+      	oc_content[2] = oc_content[2].replace("{id}", "id=2");
+      	oc_content[2] = oc_content[2].replace("{desc}", "Car porch parking");
+
+      	oc_content[3] = popupcontent.replace("{url}", "img/listing/listing4.jpg");
+      	oc_content[3] = oc_content[3].replace("{id}", "id=3");
+      	oc_content[3] = oc_content[3].replace("{desc}", "2 spot parking in Kelana");
+
+      	oc_content[4] = popupcontent.replace("{url}", "img/listing/listing5.jpg");
+      	oc_content[4] = oc_content[4].replace("{id}", "id=4");
+      	oc_content[4] = oc_content[4].replace("{desc}", "Kelana Jaya parking (outside)");
+        
+        oc_content[5] = popupcontent.replace("{url}", "img/listing/listing6.png");
+      	oc_content[5] = oc_content[5].replace("{id}", "id=5");
+      	oc_content[5] = oc_content[5].replace("{desc}", "1 Spot Outside Parking in Kelana");
+
+      	oc_content[6] = popupcontent.replace("{url}", "img/listing/listing7.jpg");
+      	oc_content[6] = oc_content[6].replace("{id}", "id=6");
+      	oc_content[6] = oc_content[6].replace("{desc}", "Shaded 1 spot parking");
+
+      	oc_content[7] = popupcontent.replace("{url}", "img/listing/listing8.jpg");
+      	oc_content[7] = oc_content[7].replace("{id}", "id=7");
+      	oc_content[7] = oc_content[7].replace("{desc}", "1 Spot Outside Parking In Kelana");
 
 
+      	console.log(oc_content);
 
 
 
@@ -382,7 +452,8 @@ else
           center: center,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         });
-        console.log(locations);
+
+
         for (i = 0; i < locations.length; i++) {  
 	      	marker = new google.maps.Marker({
 		        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
@@ -396,7 +467,8 @@ else
 	            // add click event
 	            google.maps.event.addListener(marker, 'click', function() {
 	                infowindow = new google.maps.InfoWindow({
-	                    content: oc_content1
+	                    content: oc_content[i]
+	                    // content: popupcontent
 	                });
 	                infowindow.open(map, marker);
 	            });
@@ -429,10 +501,9 @@ else
     </script>
 
 
-
-
-
-
 <?php 
 include_once('footer.php');
  ?>
+
+
+
