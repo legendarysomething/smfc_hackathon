@@ -24,7 +24,7 @@
                 <ul class="list-unstyled">
                   <li><a href="aboutus.php">About Us</a></li>
                   <li><a href="login.php">Get Listed</a></li>
-                  <li><a href="faq.php">How It Works</a></li>
+                  <li><a href="index.php#how-it-works">How It Works</a></li>
                 </ul>
               </div>
             </div>

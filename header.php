@@ -78,8 +78,8 @@
                   <!-- Commenting 'Quick Find' out -->
                   <!-- <li class=""><a href="geosearch.php">quick find </a></li> -->
                   <li class=""><a href="login.php">get listed </a></li>
-                  <li class=""><a href="#how-it-works">how it works? </a></li>
-                  <li class=""><a href="myaccount.php">my account </a></li>
+                  <li class=""><a href="index.php#how-it-works">how it works? </a></li>
+                  <li class=""><a href="profile.php">my account </a></li>
                 </ul>
             </div>
             <?php if($showUser){?>
