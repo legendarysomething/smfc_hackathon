@@ -9,7 +9,7 @@
 	}
 </style>
 <!-- LISTINGS DETAILS IMAGE SECTION -->
-<section class="clearfix paddingAdjustTopBottom" style="padding:0px;">
+<section class="clearfix paddingAdjustTopBottom hidden-xs" style="padding:0px;">
 	<ul class="list-inline listingImage">
 		<li><img src="img/listing/listing-details-1.jpg" alt="Image Listing" class="img-responsive"></li>
 		<li><img src="img/listing/listing-details-2.jpg" alt="Image Listing" class="img-responsive"></li>
@@ -17,6 +17,12 @@
 		<li><img src="img/listing/listing-details-4.jpg" alt="Image Listing" class="img-responsive"></li>
 	</ul>
 </section>
+<div class="slicker visible-xs">
+	<div><img src="img/listing/listing-details-1.jpg" alt="Image Listing" class="img-responsive"></div>
+	<div><img src="img/listing/listing-details-2.jpg" alt="Image Listing" class="img-responsive"></div>
+	<div><img src="img/listing/listing-details-3.jpg" alt="Image Listing" class="img-responsive"></div>
+	<div><img src="img/listing/listing-details-4.jpg" alt="Image Listing" class="img-responsive"></div>
+</div>
 
 <!-- LISTINGS DETAILS TITLE SECTION -->
 <section class="clearfix paddingAdjustBottom" style="padding:30px 0;">
@@ -35,15 +41,12 @@
 							<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 						</ul>
 						<span>( 5 Reviews )</span>
-						<!--<ul class="list-inline captionItem">
-							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-						</ul>-->
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-lg-4 col-md-12">
 				<div class="listSidebar">
-					<h3>From <strong>RM5</strong> per day</h3>
+					<h3><strong>RM5</strong> per day</h3>
 					<form>
 						<div class="form-group col-xs-12 col-lg-6 nopadding">
 							<div class="dateSelect">
@@ -242,6 +245,11 @@
 		</div>
 	</div>
 </section>
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('.slicker').slick({dots: true,mobileFirst:true});
+	});
+	</script>
 <?php
 	include_once('footer.php');
 ?>
