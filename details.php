@@ -120,7 +120,7 @@
 							<img src="img/listing/list-user-1.jpg" class="media-object img-circle" alt="Image User">
 							</div>
 							<div class="media-body">
-								<h4 class="media-heading">Jessica Brown</h4>
+								<h4 class="media-heading">John S.</h4>
 								<ul class="list-inline rating">
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -128,8 +128,7 @@
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan
-								totam rem ape riam,</p>
+								<p>The owner was easy to deal with and responded promptly to my bookings. He even offered me breakfast that his mother has made! Kudos to the owner!</p>
 							</div>
 						</div>
 						<div class="media media-comment">
@@ -137,7 +136,7 @@
 							<img src="img/listing/list-user-2.jpg" class="media-object img-circle" alt="Image User">
 							</div>
 							<div class="media-body">
-								<h4 class="media-heading">Jessica Brown</h4>
+								<h4 class="media-heading">Jessica B.</h4>
 								<ul class="list-inline rating">
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -145,8 +144,7 @@
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 								</ul>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan
-								totam rem ape riam,</p>
+								<p>Great experience. I personally find it a little troublesome as the property's located in a gated community with security guards. Other than that, it's a positive experience for me.</p>
 							</div>
 						</div>
 						<div class="media media-comment">
@@ -154,16 +152,15 @@
 							<img src="img/listing/list-user-3.jpg" class="media-object img-circle" alt="Image User">
 							</div>
 							<div class="media-body">
-								<h4 class="media-heading">Jessica Brown</h4>
+								<h4 class="media-heading">Jasmine C.</h4>
 								<ul class="list-inline rating">
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 								</ul>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan
-								totam rem ape riam,</p>
+								<p>Owner was accomodating and friendly. The place is also really close to the LRT station — just exactly what I'm looking for. The only downside is that the daily rates are on par with the local council's. Not much savings here.</p>
 							</div>
 						</div>
 					</div>
