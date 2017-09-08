@@ -72,8 +72,47 @@
 	    </div>
 	  </div>
 	</div>
-	<div class="container">
-		<div class="page-header text-center">
+	<!-- How It Works -->
+	<div class="page-header text-center" id="how-it-works">
+		<h2>How It Works?</h2>
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-xs-12">
+			<div class="howItWorks">
+				<div class="howWorksImage text-center"><img src="img/works/works-big-1.png" class="img-fluid" style="max-width: 100%; height: auto;" alt="Image Works"></div>
+					<div class="howWorksInfo text-center">
+						<p>Step 1</p>
+						<h3>Find A Parking Spot</h3>
+						<p>Use our ‘Quick Find’ feature or search manually</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-xs-12">
+			<div class="howItWorks">
+				<div class="howWorksImage text-center"><img src="img/works/works-big-2.png" class="img-fluid" style="max-width: 100%; height: auto;" alt="Image Works"></div>
+					<div class="howWorksInfo text-center">
+						<p>Step 2</p>
+						<h3>Pick Your Sweet Spot</h3>
+						<p>Look around on our handy map and check out the available listings</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-xs-12">
+			<div class="howItWorks">
+				<div class="howWorksImage text-center"><img src="img/works/works-big-3.png" class="img-fluid" style="max-width: 100%; height: auto;" alt="Image Works"></div>
+					<div class="howWorksInfo text-center">
+						<p>Step 3</p>
+						<h3>‘Chop’ the Spot!</h3>
+						<p>Proceed to ‘Book Now’ and pay online. It’s as easy as 123!</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+
+	
+		<!-- <div class="page-header text-center">
 			<h2>Browse by Categories <small>Explore and connect with great local businesses </small></h2>
 		</div>
 		<div class="row">
@@ -130,7 +169,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </section>
 <?php
 	include_once('footer.php');
