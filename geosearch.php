@@ -1,5 +1,5 @@
 <?php 
-
+$page_header = "Quick Search";
 include_once('header.php');
 
 
@@ -16,12 +16,13 @@ include_once('header.php');
   
   	<div class="container-fluid">
   		<div class="row">
-  			<div class="col-sm-8 col-xs-12" style="position: fixed;">
+  			<div class="col-sm-6 col-xs-12">
+  				<br><h3>Maps</h3>
 				<div id="map"></div>
   			</div>
 
 			<!-- Content Start -->
-  			<div class="col-sm-4 col-xs-12 col-sm-offset-8 col-xs-offset-12">
+  			<div class="col-sm-3 col-xs-12">
 				<br>
 				<h3>Places Nearby</h3>
 	  			<div class="thingsBox thinsSpace">
@@ -48,7 +49,7 @@ include_once('header.php');
 				</div>
 				<div class="thingsBox thinsSpace">
 					<div class="thingsImage">
-						<img src="img/listing/listing2.jpg" alt="Image things">
+						<img src="img/listing/listing1.jpg" alt="Image things">
 						<div class="thingsMask">
 							<ul class="list-inline rating">
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -64,13 +65,39 @@ include_once('header.php');
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysia</a></li>
+							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysiah</a></li>
+						</ul>
+					</div>
+				</div>
+  			</div>
+  			<div class="col-sm-3 col-xs-12">
+				<br>
+				<h3>&nbsp;</h3>
+	  			<div class="thingsBox thinsSpace">
+					<div class="thingsImage">
+						<img src="img/listing/listing1.jpg" alt="Image things">
+						<div class="thingsMask">
+							<ul class="list-inline rating">
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+							</ul>
+							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
+							<p>10 Bay Street Toronto Ontario Canada</p>
+						</div>
+					</div>
+					<div class="thingsCaption ">
+						<ul class="list-inline captionItem">
+							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
+							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysiah</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="thingsBox thinsSpace">
 					<div class="thingsImage">
-						<img src="img/listing/listing3.jpg" alt="Image things">
+						<img src="img/listing/listing1.jpg" alt="Image things">
 						<div class="thingsMask">
 							<ul class="list-inline rating">
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -86,54 +113,11 @@ include_once('header.php');
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysia</a></li>
+							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysiah</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="thingsBox thinsSpace">
-					<div class="thingsImage">
-						<img src="img/listing/listing4.jpg" alt="Image things">
-						<div class="thingsMask">
-							<ul class="list-inline rating">
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-							</ul>
-							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
-							<p>10 Bay Street Toronto Ontario Canada</p>
-						</div>
-					</div>
-					<div class="thingsCaption ">
-						<ul class="list-inline captionItem">
-							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysia</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="thingsBox thinsSpace">
-					<div class="thingsImage">
-						<img src="img/listing/listing5.jpg" alt="Image things">
-						<div class="thingsMask">
-							<ul class="list-inline rating">
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-							</ul>
-							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
-							<p>10 Bay Street Toronto Ontario Canada</p>
-						</div>
-					</div>
-					<div class="thingsCaption ">
-						<ul class="list-inline captionItem">
-							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysia</a></li>
-						</ul>
-					</div>
-				</div>
+				
 
   			</div>
 			<!-- content end -->
