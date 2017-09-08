@@ -3,18 +3,6 @@
     if(!isset($page_header)){
         $page_header = "Hackathon";
     }
-    /*
- <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><?=$page_header?></title>
-    <!-- Bootstrap / jQuery -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-</head> */
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,10 +11,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Member Login - Listty</title>
+  <title><?=$page_header?></title>
   <!-- PLUGINS CSS STYLE -->
-  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-  <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
   <link href="plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet">
   <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -136,6 +122,8 @@
                     </ul>
                   </li>
                   <li class=""><a href="blog.html">blog </a></li>
+                  <li class=""><a href="register.php">Register </a></li>
+                  <li class=""><a href="login.php">Login </a></li>
                   <li class=" dropdown singleDrop">
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">admin <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <ul class="dropdown-menu dropdown-menu-right">
