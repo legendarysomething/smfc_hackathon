@@ -24,7 +24,7 @@ include_once('header.php');
 			<!-- Content Start -->
   			<div class="col-sm-3 col-xs-12">
 				<br>
-				<h3>Places Nearby</h3>
+				<h3>Spots Avaliable Nearby</h3>
 	  			<div class="thingsBox thinsSpace">
 					<div class="thingsImage">
 						<img src="img/listing/listing1.jpg" alt="Image things">
@@ -36,14 +36,14 @@ include_once('header.php');
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
 							</ul>
-							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
-							<p>10 Bay Street Toronto Ontario Canada</p>
+							<a href="blog-details.html"><h2>Shaded parking spot in KJ <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
+							<p>Taman Mayang, Selangor, Malaysia</p>
 						</div>
 					</div>
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysiah</a></li>
+							<li><a href="category-list-full.html">Sam K.</a></li>
 						</ul>
 					</div>
 				</div>
@@ -56,16 +56,16 @@ include_once('header.php');
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-half-empty" aria-hidden="true"></i></li>
 							</ul>
-							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
-							<p>10 Bay Street Toronto Ontario Canada</p>
+							<a href="blog-details.html"><h2>Gated & shaded parking <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
+							<p>Taman Mayang, Selangor, Malaysia</p>
 						</div>
 					</div>
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysiah</a></li>
+							<li><a href="category-list-full.html">Su-Meng Y.</a></li>
 						</ul>
 					</div>
 				</div>
@@ -82,16 +82,16 @@ include_once('header.php');
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 							</ul>
-							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
-							<p>10 Bay Street Toronto Ontario Canada</p>
+							<a href="blog-details.html"><h2>Car porch parking <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
+							<p>Taman Mayang, Selangor, Malaysia</p>
 						</div>
 					</div>
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysiah</a></li>
+							<li><a href="category-list-full.html">Jih Chuan L.</a></li>
 						</ul>
 					</div>
 				</div>
@@ -103,17 +103,17 @@ include_once('header.php');
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-half-empty" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 							</ul>
-							<a href="blog-details.html"><h2>The City Theater <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
-							<p>10 Bay Street Toronto Ontario Canada</p>
+							<a href="blog-details.html"><h2>2 spot parking in Kelana <i class="fa fa-check-circle" aria-hidden="true"></i></h2></a>
+							<p>Taman Mayang, Selangor, Malaysia</p>
 						</div>
 					</div>
 					<div class="thingsCaption ">
 						<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
-							<li><a href="category-list-full.html">Taman Mayang, Selangor, Malaysiah</a></li>
+							<li><a href="category-list-full.html">Novi K.</a></li>
 						</ul>
 					</div>
 				</div>
@@ -211,10 +211,15 @@ include_once('header.php');
 
       	var locations = [
 		      ['Park Spot 1', 3.113902, 101.604686, 1],
-		      ['Park Spot 2', 3.052784, 101.585726, 2],
-		      ['Park Spot 3', 3.058614, 101.587765, 3],
-		      ['Park Spot 4', 3.060628, 101.583988, 4],
-		      ['Park Spot 5', 3.057607, 101.579761, 5]
+		      ['Park Spot 2', 3.111301, 101.604076, 2],
+		      ['Park Spot 3', 3.113706, 101.608417, 3],
+		      ['Park Spot 4', 3.114803, 101.603876, 4],
+		      ['Park Spot 5', 3.110667, 101.602123, 5],
+		      ['Park Spot 6', 3.107341, 101.601948, 6],
+		      ['Park Spot 7', 3.108250, 101.605663, 7],
+		      ['Park Spot 8', 3.110857, 101.608510, 8],
+		      ['Park Spot 9', 3.119435, 101.611363, 9],
+		      ['Park Spot 10', 3.116634, 101.600531, 10]
 		    ];
 
         var subang = {lat: 3.1124459, lng: 101.6044029};
