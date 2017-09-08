@@ -5,13 +5,28 @@ include_once('header.php');
 
 //https://maps.googleapis.com/maps/api/geocode/json?address=kelana+jaya+lrt&key=AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4
 
-// if (isset($_GET['location']))
-// {
-// 	$query = str_replace(' ', '+', $_GET['query']);
-// 	$api_url = "https://maps.googleapis.com/maps/api/geocode/json?address=".."&key=AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4";
-// 	$json = file_get_contents($api_url);
-// 	$obj = json_decode($json);
-// }
+
+if (isset($_GET['location']))
+{
+	// $api_url = "https://maps.googleapis.com/maps/api/geocode/json?address=".$_GET['location']."&key=AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4";
+	$query = http_build_query(array('address'=>$_GET['location'], 'key'=>'AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4'));
+	$api_url = "https://maps.googleapis.com/maps/api/geocode/json?" . $query;
+	$json = file_get_contents($api_url);
+	$obj = json_decode($json);
+
+
+	$lat = $obj->results[0]->geometry->location->lat;
+	$lng = $obj->results[0]->geometry->location->lng;
+
+} 
+
+// Default to lrt kelana jaya line for hackathon demo
+else
+{
+	$lat = 3.1124459;
+	$lng = 101.6044029;
+}
+
 
 
 
@@ -254,7 +269,7 @@ include_once('header.php');
 						</div>
 					</div>
 				</div>
-				<div class="paginationCommon blogPagination categoryPagination">
+				<!-- <div class="paginationCommon blogPagination categoryPagination">
 					<nav aria-label="Page navigation">
 						<ul class="pagination">
 							<li>
@@ -274,7 +289,7 @@ include_once('header.php');
 							</li>
 						</ul>
 					</nav>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -376,14 +391,14 @@ include_once('header.php');
 		      // ['Park Spot 10', 3.116634, 101.600531, 10]
 		    ];
 
-        var subang = {lat: 3.1124459, lng: 101.6044029};
+        var center = {lat: <?=$lat?>, lng: <?=$lng?>};
 
         
 
 
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 15,
-          center: subang,
+          center: center,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         });
         console.log(locations);
@@ -408,7 +423,7 @@ include_once('header.php');
 	      }
 
         var marker1 = new Marker({
-          position: subang,
+          position: center,
           map: map
         });
 
