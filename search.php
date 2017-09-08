@@ -27,7 +27,14 @@ else
 	$lng = 101.6044029;
 }
 
-
+if (isset($_GET['location']) && $_GET['location'] != "kelana jaya lrt")
+{
+	$disabled = 1;
+}
+else
+{
+	$disabled = 0;
+}
 
 
  ?>
@@ -71,12 +78,17 @@ else
 			</div>
 			<div class="col-sm-8 col-xs-12">
 				<div class="resultBar barSpaceAdjust">
-					<h2>We found <span>8</span> Results for you</h2>
+					<?php if ($disabled == 0){ ?>
+						<h2>We found <span>8</span> Results for you</h2>
+					<?php } else { ?>
+						<h1>Oh no! We couldn't find any listings in the area</h1>
+					<?php } ?>
 					<!-- <ul class="list-inline">
 						<li><a href="listing-sidebar-map-full.html"><i class="fa fa-th" aria-hidden="true"></i></a></li>
 						<li class="active"><a href="listing-sidebar-map-right.html"><i class="fa fa-th-list" aria-hidden="true"></i></a></li>
 					</ul> -->
 				</div>
+				<?php if ($disabled == 0){ ?>
 				<div class="listContent">
 					<div class="row">
 						<div class="col-sm-5 col-xs-12">
@@ -269,6 +281,8 @@ else
 						</div>
 					</div>
 				</div>
+
+				<?php } ?>
 				<!-- <div class="paginationCommon blogPagination categoryPagination">
 					<nav aria-label="Page navigation">
 						<ul class="pagination">
@@ -393,35 +407,35 @@ else
 		// id=1
       	var oc_content = []
       	oc_content[0] = popupcontent.replace("{url}", "img/listing/listing1.jpg");
-      	oc_content[0] = oc_content[0].replace("{id}", "id=0");
+      	oc_content[0] = oc_content[0].replace("{id}", "id=1");
       	oc_content[0] = oc_content[0].replace("{desc}", "Shaded parking spot in KJ");
 
       	oc_content[1] = popupcontent.replace("{url}", "img/listing/listing2.jpg");
-      	oc_content[1] = oc_content[1].replace("{id}", "id=1");
+      	oc_content[1] = oc_content[1].replace("{id}", "id=2");
       	oc_content[1] = oc_content[1].replace("{desc}", "Gated & shaded parking");
 
       	oc_content[2] = popupcontent.replace("{url}", "img/listing/listing3.jpg");
-      	oc_content[2] = oc_content[2].replace("{id}", "id=2");
+      	oc_content[2] = oc_content[2].replace("{id}", "id=3");
       	oc_content[2] = oc_content[2].replace("{desc}", "Car porch parking");
 
       	oc_content[3] = popupcontent.replace("{url}", "img/listing/listing4.jpg");
-      	oc_content[3] = oc_content[3].replace("{id}", "id=3");
+      	oc_content[3] = oc_content[3].replace("{id}", "id=4");
       	oc_content[3] = oc_content[3].replace("{desc}", "2 spot parking in Kelana");
 
       	oc_content[4] = popupcontent.replace("{url}", "img/listing/listing5.jpg");
-      	oc_content[4] = oc_content[4].replace("{id}", "id=4");
+      	oc_content[4] = oc_content[4].replace("{id}", "id=5");
       	oc_content[4] = oc_content[4].replace("{desc}", "Kelana Jaya parking (outside)");
         
         oc_content[5] = popupcontent.replace("{url}", "img/listing/listing6.png");
-      	oc_content[5] = oc_content[5].replace("{id}", "id=5");
+      	oc_content[5] = oc_content[5].replace("{id}", "id=6");
       	oc_content[5] = oc_content[5].replace("{desc}", "1 Spot Outside Parking in Kelana");
 
       	oc_content[6] = popupcontent.replace("{url}", "img/listing/listing7.jpg");
-      	oc_content[6] = oc_content[6].replace("{id}", "id=6");
+      	oc_content[6] = oc_content[6].replace("{id}", "id=7");
       	oc_content[6] = oc_content[6].replace("{desc}", "Shaded 1 spot parking");
 
       	oc_content[7] = popupcontent.replace("{url}", "img/listing/listing8.jpg");
-      	oc_content[7] = oc_content[7].replace("{id}", "id=7");
+      	oc_content[7] = oc_content[7].replace("{id}", "id=8");
       	oc_content[7] = oc_content[7].replace("{desc}", "1 Spot Outside Parking In Kelana");
 
 
