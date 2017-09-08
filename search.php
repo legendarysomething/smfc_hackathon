@@ -1,6 +1,20 @@
 <?php 
 $page_header = "Search Page";
 include_once('header.php');
+
+
+//https://maps.googleapis.com/maps/api/geocode/json?address=kelana+jaya+lrt&key=AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4
+
+// if (isset($_GET['location']))
+// {
+// 	$query = str_replace(' ', '+', $_GET['query']);
+// 	$api_url = "https://maps.googleapis.com/maps/api/geocode/json?address=".."&key=AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4";
+// 	$json = file_get_contents($api_url);
+// 	$obj = json_decode($json);
+// }
+
+
+
  ?>
 
 
@@ -82,7 +96,7 @@ include_once('header.php');
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<h2><a href="blog-details.html" style="color: #222222">Shaded parking spot in KJ</a> <span class="likeCount"><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</span></h2>
+								<h2><a href="blog-details.html" style="color: #222222">Shaded parking spot in KJ</a> 
 								<p>15 Jalan SS 25/4 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -108,7 +122,7 @@ include_once('header.php');
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<h2><a href="blog-details.html" style="color: #222222">Gated & shaded parking</a> <span class="likeCount"><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</span></h2>
+								<h2><a href="blog-details.html" style="color: #222222">Gated & shaded parking</a> 
 								<p>42 Jalan SS 4c/4 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -133,7 +147,7 @@ include_once('header.php');
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<h2><a href="blog-details.html" style="color: #222222">Car porch parking</a> <span class="likeCount"><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</span></h2>
+								<h2><a href="blog-details.html" style="color: #222222">Car porch parking</a> 
 								<p>32 Jalan SS 24/3 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -157,7 +171,7 @@ include_once('header.php');
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<h2><a href="blog-details.html" style="color: #222222">2 spot parking in Kelana</a> <span class="likeCount"><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</span></h2>
+								<h2><a href="blog-details.html" style="color: #222222">2 spot parking in Kelana</a> 
 								<p>46 Jalan SS 25/10 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -181,7 +195,7 @@ include_once('header.php');
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 								</ul>
-								<h2><a href="blog-details.html" style="color: #222222">Kelana Jaya parking (outside)</a> <span class="likeCount"><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</span></h2>
+								<h2><a href="blog-details.html" style="color: #222222">Kelana Jaya parking (outside)</a> 
 								<p>2 Jalan SS 4c/18 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -198,7 +212,7 @@ include_once('header.php');
 						</div>
 						<div class="col-sm-7 col-xs-12">
 							<div class="categoryDetails">
-								<h2><a href="blog-details.html" style="color: #222222">1 Spot Outside Parking in Kelana</a> <span class="likeCount"><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</span></h2>
+								<h2><a href="blog-details.html" style="color: #222222">1 Spot Outside Parking in Kelana</a> 
 								<p>20 Jalan SS 4b/18 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -215,7 +229,7 @@ include_once('header.php');
 						</div>
 						<div class="col-sm-7 col-xs-12">
 							<div class="categoryDetails">
-								<h2><a href="blog-details.html" style="color: #222222">Shaded 1 spot parking</a> <span class="likeCount"><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</span></h2>
+								<h2><a href="blog-details.html" style="color: #222222">Shaded 1 spot parking</a> 
 								<p>5 Jalan SS 4b/1 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
@@ -232,7 +246,7 @@ include_once('header.php');
 						</div>
 						<div class="col-sm-7 col-xs-12">
 							<div class="categoryDetails">
-								<h2><a href="blog-details.html" style="color: #222222">Shaded Porch Parking</a> <span class="likeCount"><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</span></h2>
+								<h2><a href="blog-details.html" style="color: #222222">Shaded Porch Parking</a> 
 								<p>55 Jalan SS 4/10 <span class="placeName">Kelana Jaya</span></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt  labore et dolore magna aliqua. </p>
 								<p>Owner : Sam K. <br> Avaliability : Every Weekday 8am to 7pm</p>
