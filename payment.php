@@ -64,11 +64,45 @@
 						</li>
 						<li >
 							<h2>Order Summary</h2>
-							<h3 style="text-transform: none !important;">Venue : </h3>
-							<h3 style="text-transform: none !important;">Car Plate : </h3>
-							<h3 style="text-transform: none !important;">Date : </h3>
-							<h3 style="text-transform: none !important;">Total : </h3>
-							<p>$1550.00</p>
+							<div>
+								<div style="float: left;">
+									<h3 style="text-transform: none !important;">Venue : </h3>
+								</div>
+								<div style="float: right;text-align: right;margin-top: 5px;">
+									<span style="font-size: 16px;">SS 25/6 Taman Mayang 47301 PJ Selangor</span>
+								</div>
+								<div style="clear: both;"></div>
+							</div>
+
+							<div>
+								<div style="float: left;">
+									<h3 style="text-transform: none !important;">Car Plate : </h3>
+								</div>
+								<div style="float: right;text-align: right;margin-top: 5px;">
+									<span style="font-size: 16px;">F2314</span>
+								</div>
+								<div style="clear: both;"></div>
+							</div>
+
+							<div>
+								<div style="float: left;">
+									<h3 style="text-transform: none !important;">Date : </h3>
+								</div>
+								<div style="float: right;text-align: right;margin-top: 5px;">
+									<span style="font-size: 16px;">Oct 18, 2017 <span class="glyphicon">&#xe092;</span> Oct 19, 2017</span>
+								</div>
+								<div style="clear: both;"></div>
+							</div>
+
+							<div>
+								<div style="float: left;">
+									<h3 style="text-transform: none !important;">Total : </h3>
+								</div>
+								<div style="float: right;text-align: right;margin-top: 5px;">
+									<span style="font-size: 16px;color:#2196f3;">RM 3</span>
+								</div>
+								<div style="clear: both;"></div>
+							</div>
 						</li>
 					</ul>
 				</div>
