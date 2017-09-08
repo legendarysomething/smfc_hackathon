@@ -21,11 +21,11 @@ include_once('header.php');
 					<div class="profileUserInfo bt profileName">
 						<p>Your Current Rating</p>
 						<div>
-							<span class="glyphicon glyphicon-star-empty" style="color:gold;"></span>
-							<span class="glyphicon glyphicon-star-empty" style="color:gold;"></span>
-							<span class="glyphicon glyphicon-star-empty" style="color:gold;"></span>
-							<span class="glyphicon glyphicon-star-empty" style="color:gold;"></span>
-							<span class="glyphicon glyphicon-star-empty" style="color:gold;"></span>
+							<span class="glyphicon glyphicon-star" style="color:gold;"></span>
+							<span class="glyphicon glyphicon-star" style="color:gold;"></span>
+							<span class="glyphicon glyphicon-star" style="color:gold;"></span>
+							<span class="glyphicon glyphicon-star" style="color:gold;"></span>
+							<span class="glyphicon glyphicon-star" style="color:gold;"></span>
 							<span>5.0</span>
 						</div>
 						<!--<h2>Platinum Package</h2>
@@ -39,7 +39,7 @@ include_once('header.php');
 					<div class="dashboardBoxBg">
 						<div class="profileIntro">
 							<h2>Your Profile</h2>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Ipsum available.</p>
+							<!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Ipsum available.</p> -->
 						</div>
 					</div>
 					<div class="dashboardBoxBg mt30">
@@ -48,28 +48,28 @@ include_once('header.php');
 							<div class="row">
 								<div class="form-group col-sm-6 col-xs-12">
 									<label for="firstNameProfile">Fast Name</label>
-									<input type="text" class="form-control" id="firstNameProfile" placeholder="Jane">
+									<input type="text" class="form-control" id="firstNameProfile" placeholder="Jasmine">
 								</div>
 								<div class="form-group col-sm-6 col-xs-12">
 									<label for="lastNameProfile">Last Name</label>
-									<input type="text" class="form-control" id="lastNameProfile" placeholder="Doe">
+									<input type="text" class="form-control" id="lastNameProfile" placeholder="Chee">
 								</div>
 								<div class="form-group col-sm-6 col-xs-12">
 									<label for="emailProfile">Email</label>
-									<input type="text" class="form-control" id="emailProfile" placeholder="Jane@example.com">
+									<input type="text" class="form-control" id="emailProfile" placeholder="jasminechee@email.com">
 								</div>
 								<div class="form-group col-sm-6 col-xs-12">
 									<label for="phoneProfile">Phone</label>
-									<input type="text" class="form-control" id="phoneProfile" placeholder="254 - 265 - 3265">
+									<input type="text" class="form-control" id="phoneProfile" placeholder="+012 345 6789">
 								</div>
 								<div class="form-group col-xs-12">
 									<label for="aboutYou">About You</label>
-									<textarea class="form-control" rows="5" id="aboutYou" placeholder="About You"></textarea>
+									<textarea class="form-control" rows="5" id="aboutYou" placeholder="Poor fresh graduate looking for affordable parking."></textarea>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="dashboardBoxBg mt30">
+					<!-- <div class="dashboardBoxBg mt30">
 						<div class="profileIntro">
 							<h3>Social Network</h3>
 							<div class="row">
@@ -91,7 +91,7 @@ include_once('header.php');
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="btn-area mt30">
 						<button class="btn btn-primary" type="button">Save Change</button>
 					</div>
