@@ -12,7 +12,17 @@ include_once('header.php');
        }
     </style>
   
-    <div id="map"></div>
+  	<div class="container-fluid">
+  		<div class="row">
+  			<div class="col-sm-8 col-xs-12">
+				<div id="map"></div>
+  			</div>
+  			<div class="col-sm-4 col-xs-12">
+  				test
+  			</div>
+  		</div>
+  	</div>
+    
    
 
 
@@ -138,7 +148,7 @@ include_once('footer.php');
 	        })(marker, i);
 	      }
 
-        var marker1 = new RichMarker({
+        var marker1 = new Marker({
           position: subang,
           map: map
         });
