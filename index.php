@@ -27,9 +27,9 @@
 	    </div>
 	    <div class="visible-xs">
 	    	<div class="page-header" style="text-align: center;padding-top:92px;">
-			    <h1 style="color:white !important;font-size: 55px;font-family: 'Cuprum', sans-serif;font-weight: normal;padding: 0px 10px;border: 2px solid white;width: 467px;margin: 0 auto;">PARKING MADE EASY</h1><br>
+			    <h1 style="color:white !important;font-size: 40px;font-family: 'Cuprum', sans-serif;font-weight: normal;padding: 0px 10px;border: 2px solid white;width: 338px;margin: 0 auto;">PARKING MADE EASY</h1><br>
 			    	<div style="clear:both;"></div>
-			    <h2 style="color:white !important;">Need parking? We supply it!</h2>
+			    <h2 style="color:white !important;    font-size: 20px;">Need parking? We supply it!</h2>
 		    </div>
 	    </div>
 	</div>
