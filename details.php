@@ -18,17 +18,17 @@
 <!-- LISTINGS DETAILS IMAGE SECTION -->
 <section class="clearfix paddingAdjustTopBottom hidden-xs" style="padding:0px;">
 	<ul class="list-inline listingImage">
-		<li><img src="img/listing/<?=$data['img'];?>" alt="Image Listing" class="img-responsive"></li>
-		<li><img src="img/listing/<?=$data['img'];?>" alt="Image Listing" class="img-responsive"></li>
-		<li><img src="img/listing/<?=$data['img'];?>" alt="Image Listing" class="img-responsive"></li>
-		<li><img src="img/listing/<?=$data['img'];?>" alt="Image Listing" class="img-responsive"></li>
+		<li><img src="img/listing/<?=$data['img'];?>.jpg" alt="Image Listing" class="img-responsive"></li>
+		<li><img src="img/listing/<?=$data['img'];?>.jpg" alt="Image Listing" class="img-responsive"></li>
+		<li><img src="img/listing/<?=$data['img'];?>.jpg" alt="Image Listing" class="img-responsive"></li>
+		<li><img src="img/listing/<?=$data['img'];?>.jpg" alt="Image Listing" class="img-responsive"></li>
 	</ul>
 </section>
 <div class="slicker visible-xs">
-	<div><img src="img/listing/<?=$data['img'];?>" alt="Image Listing" class="img-responsive" style="width:505px;"></div>
-	<div><img src="img/listing/<?=$data['img'];?>" alt="Image Listing" class="img-responsive" style="width:505px;"></div>
-	<div><img src="img/listing/<?=$data['img'];?>" alt="Image Listing" class="img-responsive" style="width:505px;"></div>
-	<div><img src="img/listing/<?=$data['img'];?>" alt="Image Listing" class="img-responsive" style="width:505px;"></div>
+	<div><img src="img/listing/<?=$data['img'];?>.jpg" alt="Image Listing" class="img-responsive" style="width:505px;"></div>
+	<div><img src="img/listing/<?=$data['img'];?>.jpg" alt="Image Listing" class="img-responsive" style="width:505px;"></div>
+	<div><img src="img/listing/<?=$data['img'];?>.jpg" alt="Image Listing" class="img-responsive" style="width:505px;"></div>
+	<div><img src="img/listing/<?=$data['img'];?>.jpg" alt="Image Listing" class="img-responsive" style="width:505px;"></div>
 </div>
 
 <!-- LISTINGS DETAILS TITLE SECTION -->
