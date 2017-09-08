@@ -20,17 +20,19 @@
 									<input type="text" class="form-control" id="cardNumber" placeholder="Card Number">
 								</div>
 								<div class="row">
-									<div class="col-sm-6 col-xs-12">
-										<div class="dateSelect">
-											<div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
-												<input type="text" class="form-control" placeholder="mm/dd/yyyy">
-												<div class="input-group-addon">
-													<i class="fa fa-calendar" aria-hidden="true"></i>
-												</div>
-											</div>
+									<div class="col-sm-4 col-xs-12">
+										<div class="form-group">
+											<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+											<input type="text" class="form-control" id="month" placeholder="MM">
 										</div>
 									</div>
-									<div class="col-sm-6 col-xs-12">
+									<div class="col-sm-4 col-xs-12">
+										<div class="form-group">
+											<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+											<input type="text" class="form-control" id="year" placeholder="YY">
+										</div>
+									</div>
+									<div class="col-sm-4 col-xs-12">
 										<div class="form-group">
 											<i class="fa fa-question-circle-o" aria-hidden="true"></i>
 											<input type="text" class="form-control" id="cvc" placeholder="CVC">

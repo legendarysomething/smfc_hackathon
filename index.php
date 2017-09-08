@@ -20,14 +20,14 @@
 	<div style="background-image: url(img/hero.jpg);width:100%;height: 700px;background-position: center center;background-repeat: no-repeat;">
 	    <div class="section-center__full hidden-xs">
 	    	<div class="page-header" style="text-align: center;">
-			    <h1 style="color:white !important;font-size: 55px;">PARKING MADE EASY</h1><br>
+			    <h1 style="color:white !important;font-size: 85px;font-family: 'Cuprum', sans-serif;font-weight: normal;padding: 0px 10px;border: 2px solid white;">PARKING MADE EASY</h1>
 			    	<div style="clear:both;"></div>
-			    <h2 style="color:white !important;">Need parking? We supply it!</h2>
+			    <h2 style="color:white !important;">Need parking? Find it here!</h2>
 	    	</div>
 	    </div>
 	    <div class="visible-xs">
 	    	<div class="page-header" style="text-align: center;padding-top:92px;">
-			    <h1 style="color:white !important;">PARKING MADE EASY</h1><br>
+			    <h1 style="color:white !important;font-size: 55px;font-family: 'Cuprum', sans-serif;font-weight: normal;padding: 0px 10px;border: 2px solid white;width: 467px;margin: 0 auto;">PARKING MADE EASY</h1><br>
 			    	<div style="clear:both;"></div>
 			    <h2 style="color:white !important;">Need parking? We supply it!</h2>
 		    </div>
