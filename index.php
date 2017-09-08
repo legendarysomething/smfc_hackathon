@@ -5,7 +5,7 @@
 <!-- MAP SECTION -->
 <section class="clearfix p0">
 	<!-- <div id="map-canvas"></div> -->
-	<div style="background-image: url(img/hero.jpg);width:1350px;height: 700px;"></div>
+	<div style="background-image: url(img/hero.jpg);width:100%;height: 700px;background-position: center center;background-repeat: no-repeat;"></div>
 </section>
 <!-- CATEGORY SECTION -->
 <section class="clearfix bg-light">
