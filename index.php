@@ -2,10 +2,37 @@
 	$page_header = 'Home';
 	include_once('header.php');
 ?>
+<style type="text/css">
+	.vcenter {
+	   display: inline-block;
+	   vertical-align: middle;
+	   float: none;
+	}
+	.section-center__full {
+	  height: 100vh;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	}
+</style>
 <!-- MAP SECTION -->
 <section class="clearfix p0">
-	<!-- <div id="map-canvas"></div> -->
-	<div style="background-image: url(img/hero.jpg);width:100%;height: 700px;background-position: center center;background-repeat: no-repeat;"></div>
+	<div style="background-image: url(img/hero.jpg);width:100%;height: 700px;background-position: center center;background-repeat: no-repeat;">
+	    <div class="section-center__full hidden-xs">
+	    	<div class="page-header" style="text-align: center;">
+			    <h1 style="color:white !important;font-size: 55px;">PARKING MADE EASY</h1><br>
+			    	<div style="clear:both;"></div>
+			    <h2 style="color:white !important;">Need parking? We supply it!</h2>
+	    	</div>
+	    </div>
+	    <div class="visible-xs">
+	    	<div class="page-header" style="text-align: center;padding-top:92px;">
+			    <h1 style="color:white !important;">PARKING MADE EASY</h1><br>
+			    	<div style="clear:both;"></div>
+			    <h2 style="color:white !important;">Need parking? We supply it!</h2>
+		    </div>
+	    </div>
+	</div>
 </section>
 <!-- CATEGORY SECTION -->
 <section class="clearfix bg-light">
