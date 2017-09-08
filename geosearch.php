@@ -17,8 +17,7 @@ include_once('header.php');
   			<div class="col-sm-8 col-xs-12">
 				<div id="map"></div>
   			</div>
-  			<div class="col-sm-4 col-xs-12">
-  				test
+  			<div class="col-sm-8 col-xs-12">
   			</div>
   		</div>
   	</div>
@@ -26,12 +25,7 @@ include_once('header.php');
    
 
 
-<?php 
-
-
-include_once('footer.php');
- ?>
-
+	 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
   <script>
 
 
@@ -101,7 +95,8 @@ include_once('footer.php');
             {name: 'Styled Map'});
 
       	// Content for onclick
-      	var popupcontent = '<div id="marker" class="flip-container"> <div class="marker-verified"><i class="fa fa-check"></i></div> <div class="flipper">' + '<div class="front">' + '<img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/174-free-google-maps-pointer.png">' + '</div>' + '<div class="back">' + '<i class="fa fa-eye"></i>' + '</div>' + '</div>' + '</div>';
+      	var popupcontent = '<div class="infobox-close"><i class="fa fa-close"></i></div>' + '<div id="iw-container" style="background-image: url(https://imgur.com/6MYjrnA.png);">' + '<div class="iw-content">' + '<ul class="list-inline rating">' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '<li><i class="fa fa-star" aria-hidden="true"></i></li>' + '</ul>' + '<div class="iw-subTitle">Title</div>' + '<p>address</p>' + '</div>' + '<div class="iw-bottom-gradient"></div>' + '</div>';
+
       	
       	var oc_content1 = "Hello World";
 
@@ -153,6 +148,8 @@ include_once('footer.php');
           map: map
         });
 
+        
+
         // marker.addListener('click', function() {
         //   infowindow.open(map, marker);
         //   alert('test');
@@ -166,8 +163,16 @@ include_once('footer.php');
        
   	}
 
-
     </script>
+
+
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4&callback=initMap">
     </script>
+
+
+<?php 
+
+
+include_once('footer.php');
+ ?>
