@@ -41,7 +41,7 @@
                   <div class="col-sm-12 col-xs-12">
                     <div class="copyRightText">
                       <p>Copyright &copy; 2017. All Rights Reserved by 
- <a href="aboutus.php">Legendary Something</a></p>
+ <span style="text-decoration: underline;">Legendary Something</span></p>
                     </div>
                   </div>
                 </div>
