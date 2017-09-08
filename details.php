@@ -2,6 +2,12 @@
 	$page_header = 'Home';
 	include_once('header.php');
 ?>
+<style type="text/css">
+	.nopadding {
+	   padding: 0 !important;
+	   margin:0;
+	}
+</style>
 <!-- LISTINGS DETAILS IMAGE SECTION -->
 <section class="clearfix paddingAdjustTopBottom" style="padding:0px;">
 	<ul class="list-inline listingImage">
@@ -16,7 +22,7 @@
 <section class="clearfix paddingAdjustBottom" style="padding:30px 0;">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-lg-8 col-md-12">
 				<div class="listingTitleArea">
 					<h2>Glory Hole Doughnuts</h2>
 					<p>1150 Queen Street West Toronto <br>Ontario M6J 1J3, Canada</p>
@@ -32,8 +38,41 @@
 						<!--<ul class="list-inline captionItem">
 							<li><i class="fa fa-heart-o" aria-hidden="true"></i> 10 k</li>
 						</ul>-->
-						<a href="listing-details-left.html#" class="btn btn-primary">Book Now</a>
 					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-lg-4 col-md-12">
+				<div class="listSidebar">
+					<h3>From <strong>RM5</strong> per day</h3>
+					<form>
+						<div class="form-group col-xs-12 col-lg-6 nopadding">
+							<div class="dateSelect">
+								<label for="starting_day">Starting Day</label>
+								<div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
+								    <input type="text" class="form-control" id="starting_day" placeholder="mm/dd/yyyy">
+									<div class="input-group-addon" style="padding: 0 5px 0 0;">
+										<i class="fa fa-calendar" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group col-xs-12 col-lg-6 nopadding">
+							<div class="dateSelect">
+								<label for="starting_day">Ending Day</label>
+								<div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
+								    <input type="text" class="form-control" id="starting_day" placeholder="mm/dd/yyyy">
+									<div class="input-group-addon" style="padding: 0 5px 0 0;">
+										<i class="fa fa-calendar" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group col-xs-12 nopadding">
+							<label>Car Plate</label>
+							<input type="text" class="form-control" name="car_plate">
+						</div>
+						<button href="listing-details-left.html#" class="btn btn-primary" style="padding-left: 5px;padding-right:5px;margin-top: 15px;width: 100%;">Request to Book</button>
+					</form>
 				</div>
 			</div>
 		</div>
