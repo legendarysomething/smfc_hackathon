@@ -76,6 +76,45 @@
 		</div>
 	</div>
 </section>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('form').submit(function(evt) {
+			evt.preventDefault();
+			// var form = this;
+			// // format data
+			// var data = {};
+			// $(form).find('input, select').not('.form-exclude').each(function(index, el) {
+			// 	data[$(el).attr('name')] = $(el).val();
+			// });
+			// // stating env type
+			// data['env'] = $('#toggle-text').attr('data-env');
+			// console.log("[FORM DATA]");
+			// console.log(JSON.stringify(data));
+			// // format spinner
+			// $(form).find(':submit').button('loading');
+			// // fire ajax call in place of form submission
+			// $.ajax({
+			// 	url: $(form).attr('action'),
+			// 	method: $(form).attr('method').toUpperCase(),
+			// 	data: data,
+			// }).done(function(response) {
+			// 	if(typeof($(form).attr('data-function')) !== 'undefined') {
+			// 		executeFunctionByName($(form).attr('data-function'), window, response);
+			// 	} else {
+			// 		console.log('No form function specified.');
+			// 		swal('Oops...', 'Something went wrong!', 'error');
+			// 	}
+			// }).fail(function(response) {
+			// 	swal('Oops...', 'Something went wrong!', 'error');
+			// }).always(function(response) {
+			// 	console.log("[AJAX RESPONSE]");
+			// 	console.log(response);
+			// 	$(form).find(':submit').button('reset');
+			// });
+			swal('Payment Complete.', 'Payment Complete!', 'success');
+		});
+	});
+</script>
 <?php
 	include_once('footer.php');
 ?>
