@@ -403,10 +403,13 @@ else
 	        })(marker, i);
 	      }
 
-        var marker1 = new Marker({
-          position: center,
-          map: map
-        });
+        marker = new google.maps.Marker({
+		        position: new google.maps.LatLng(<?=$lat?>, <?=$lng?>),
+		        map: map, 
+		        // icon: "img/parking.png",
+		        title: "You Are Here"
+
+		    });
 
         
 
