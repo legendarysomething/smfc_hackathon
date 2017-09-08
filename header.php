@@ -32,6 +32,8 @@
   <link href="plugins/fancybox/jquery.fancybox.pack.css" rel="stylesheet">
   <link href="plugins/isotope/isotope.min.css" rel="stylesheet">
   <link href="plugins/map/css/map.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
   <!-- GOOGLE FONT -->
   <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -97,4 +99,5 @@
     <script src="plugins/jquery/jquery.min.js"></script>
     <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     </header>
