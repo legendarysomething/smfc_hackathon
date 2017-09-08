@@ -6,7 +6,7 @@ include_once('header.php');
 //https://maps.googleapis.com/maps/api/geocode/json?address=kelana+jaya+lrt&key=AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4
 
 
-if (isset($_GET['location']))
+if (isset($_GET['location']) && $_GET['location']!= '')
 {
 	// $api_url = "https://maps.googleapis.com/maps/api/geocode/json?address=".$_GET['location']."&key=AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4";
 	$query = http_build_query(array('address'=>$_GET['location'], 'key'=>'AIzaSyDRID3wiM3KVnJebRDv87SKVJADmUu9xD4'));
@@ -27,7 +27,7 @@ else
 	$lng = 101.6044029;
 }
 
-if (isset($_GET['location']) && $_GET['location'] != "kelana jaya lrt")
+if (isset($_GET['location']) && $_GET['location'] != "kelana jaya lrt" && $_GET['location']!= '')
 {
 	$disabled = 1;
 }
