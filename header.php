@@ -37,6 +37,8 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
   <!-- FAVICON -->
