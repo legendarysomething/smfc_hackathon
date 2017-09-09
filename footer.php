@@ -7,7 +7,7 @@
           <div class="row">
             <div class="col-sm-9 col-xs-12">
               <div class="footerText">
-                <a href="index.html" class="footerLogo"><img src="img/logo-footer.png" alt="Footer Logo"></a>
+                <a href="index.php" class="footerLogo footer_logo"><strong>PARK</strong>SINI<!-- <img src="img/logo-footer.png" alt="Footer Logo"> --></a>
                 <p>ParkSini offers a revolutionary parking solution. <br> What’s better than democratizing parking by sharing your empty car porch?
                 </p>
                 <ul class="list-styled list-contact">

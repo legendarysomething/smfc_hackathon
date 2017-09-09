@@ -45,6 +45,30 @@
   <link href="css/style.css" rel="stylesheet">
   <!-- FAVICON -->
   <link href="img/favicon.png" rel="shortcut icon">
+  <style type="text/css">
+      .header_logo{
+        font-family: 'Cuprum', sans-serif;
+        color: #2196f3 !important;
+        font-size: 32px;
+        border: 2px solid #2196f3;
+        /* border-radius: 3px; */
+        padding: 9px;
+        /*font-weight: bold;*/
+      }
+      .footer_logo{
+        font-family: 'Cuprum', sans-serif;
+        color: white;
+        font-size: 32px;
+        border: 2px solid white;
+        /* border-radius: 3px; */
+        padding: 9px;
+        /*font-weight: bold;*/
+        width: 130px;
+      }
+      .footer_logo:hover{
+        color:white !important;
+      }
+  </style>
 </head>
 <body class="body-wrapper">
   <div class="main-wrapper">
@@ -71,7 +95,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.php"><img src="img/logo-blue.png" alt="logo"></a>
+              <a class="navbar-brand" href="index.php" >
+              <!-- <img src="img/logo-blue.png" alt="logo"> --> 
+              <div class="header_logo">
+                  <strong>PARK</strong>SINI
+              </div>
+              </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -79,7 +108,11 @@
 				<!-- header links -->
                   <!-- Commenting 'Quick Find' out -->
                   <!-- <li class=""><a href="geosearch.php">quick find </a></li> -->
-                  <li class=""><a href="login.php">get listed </a></li>
+                <?php if(!$showUser){?>
+                    <li class=""><a href="add_listing.php">get listed </a></li>
+                <?php }else{ ?>
+                    <li class=""><a href="login.php">get listed </a></li>
+                <?php } ?>
                   <li class=""><a href="index.php#how-it-works">how it works? </a></li>
                   <?php if (!$showUser) { ?>
                   <li class=""><a href="profile.php">my account </a></li>
