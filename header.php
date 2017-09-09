@@ -98,7 +98,7 @@
               <a class="navbar-brand" href="index.php" >
               <!-- <img src="img/logo-blue.png" alt="logo"> --> 
               <div class="header_logo">
-                  <strong><b>P A R K</b></strong> S I N I
+                  <strong><b>PARK</b></strong>SINI
               </div>
               </a>
             </div>
