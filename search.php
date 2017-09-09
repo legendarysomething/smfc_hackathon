@@ -462,7 +462,7 @@ else
 
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 14,
+          zoom: 15,
           center: center,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         });
