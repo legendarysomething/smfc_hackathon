@@ -13,35 +13,35 @@
 							<h2>Billing Information</h2>
 							<form class="loginForm">
 								<div class="form-group">
-									<input type="text" class="form-control" id="cardHOlderName" placeholder="Cardholder Name">
+									<input type="text" class="form-control" id="cardHOlderName" placeholder="Cardholder Name" value="Jasmine Chee">
 								</div>
 								<div class="form-group">
 									<i class="fa fa-credit-card" aria-hidden="true"></i>
-									<input type="text" class="form-control" id="cardNumber" placeholder="Card Number">
+									<input type="text" class="form-control" id="cardNumber" placeholder="Card Number" value="4111111111111">
 								</div>
 								<div class="row">
 									<div class="col-sm-4 col-xs-12">
 										<div class="form-group">
 											<i class="fa fa-question-circle-o" aria-hidden="true"></i>
-											<input type="text" class="form-control" id="month" placeholder="MM">
+											<input type="text" class="form-control" id="month" placeholder="MM" value = "12">
 										</div>
 									</div>
 									<div class="col-sm-4 col-xs-12">
 										<div class="form-group">
 											<i class="fa fa-question-circle-o" aria-hidden="true"></i>
-											<input type="text" class="form-control" id="year" placeholder="YY">
+											<input type="text" class="form-control" id="year" placeholder="YY" value= "19">
 										</div>
 									</div>
 									<div class="col-sm-4 col-xs-12">
 										<div class="form-group">
 											<i class="fa fa-question-circle-o" aria-hidden="true"></i>
-											<input type="text" class="form-control" id="cvc" placeholder="CVC">
+											<input type="text" class="form-control" id="cvc" placeholder="CVC" value ="737">
 										</div>
 									</div>
 								</div>
 								<div class="checkbox">
 									<label>
-										<input type="checkbox"> By confirming you agree to our <a href="terms-of-services.html">Terms of Service</a>
+										<input type="checkbox" checked> By confirming you agree to our <a href="terms-of-services.html">Terms of Service</a>
 									</label>
 								</div>
 								<div class="form-group mgnBtm0">

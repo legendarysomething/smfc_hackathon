@@ -62,7 +62,7 @@
 							<div class="dateSelect">
 								<label for="starting_day">Starting Day</label>
 								<div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
-								    <input type="text" class="form-control" id="starting_day" placeholder="mm/dd/yyyy">
+								    <input type="text" class="form-control" id="starting_day" placeholder="mm/dd/yyyy" value="27/12/2017">
 									<div class="input-group-addon" style="padding: 0 5px 0 0;">
 										<i class="fa fa-calendar" aria-hidden="true"></i>
 									</div>
@@ -73,7 +73,7 @@
 							<div class="dateSelect">
 								<label for="starting_day">Ending Day</label>
 								<div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
-								    <input type="text" class="form-control" id="starting_day" placeholder="mm/dd/yyyy">
+								    <input type="text" class="form-control" id="starting_day" placeholder="mm/dd/yyyy" value="30/12/2017">
 									<div class="input-group-addon" style="padding: 0 5px 0 0;">
 										<i class="fa fa-calendar" aria-hidden="true"></i>
 									</div>
@@ -82,7 +82,7 @@
 						</div>
 						<div class="form-group col-xs-12 nopadding">
 							<label>Car Plate</label>
-							<input type="text" class="form-control" name="car_plate">
+							<input type="text" class="form-control" name="car_plate" value="AMR 3942">
 						</div>
 						<button href="listing-details-left.html#" class="btn btn-primary" style="padding-left: 5px;padding-right:5px;margin-top: 15px;width: 100%;">Request to Book</button>
 					</form>

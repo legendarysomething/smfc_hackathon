@@ -71,7 +71,7 @@ else
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-4 col-xs-12">
-				<div class="clearfix map-sidebar map-right map-margin-btm">
+				<div class="clearfix map-margin-btm" >
 					<div id="map"  style="position:relative; margin: 0;padding: 0;height: 538px; max-width: none;"></div>
 				</div>
 				

@@ -42,7 +42,7 @@
 	      <div class="bg-search-white col-xs-12">
 	        <form class="form-inline" action="search.php" method="get">
 	          <div class="form-group col-xs-12 col-lg-9">
-	            <input type="text" class="form-control" id="exampleInputEmail1" name="location" placeholder="Enter a location">
+	            <input type="text" class="form-control" id="exampleInputEmail1" name="location" placeholder="Enter a location" value="kelana jaya lrt">
 	          </div>
 	          <div class="form-group col-xs-12 col-lg-3">
 	            <button type="submit" class="btn btn-primary">Search </button>
