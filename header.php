@@ -107,7 +107,7 @@
                 <ul class="nav navbar-nav navbar-right" style="    height: 125px;">
 				<!-- header links -->
                   <!-- Commenting 'Quick Find' out -->
-                  <!-- <li class=""><a href="geosearch.php">quick find </a></li> -->
+                  <li class=""><a href="quicksearch.php">quick find </a></li>
                 <?php if(!$showUser){?>
                     <li class=""><a href="add_listing.php">get listed </a></li>
                 <?php }else{ ?>

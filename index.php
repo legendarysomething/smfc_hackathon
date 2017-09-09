@@ -73,7 +73,7 @@
 					<div class="howWorksInfo text-center">
 						<p>Step 2</p>
 						<h3>Pick Your Sweet Spot</h3>
-						<p>Look around on our handy map and check out the available listings</p>
+						<p>Look around on our handy map and check out <br> the available listings</p>
 				</div>
 			</div>
 		</div>
