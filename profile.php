@@ -28,9 +28,6 @@ include_once('header.php');
 							<span class="glyphicon glyphicon-star" style="color:gold;"></span>
 							<span>5.0</span>
 						</div>
-						<!--<h2>Platinum Package</h2>
-						<h5>Next Payment: <span>15/01/2018</span></h5>
-						<a href="profile.html#" class="btn btn-primary">Change</a>-->
 					</div>
 				</div>
 			</div>
@@ -39,7 +36,6 @@ include_once('header.php');
 					<div class="dashboardBoxBg">
 						<div class="profileIntro">
 							<h2>Your Profile</h2>
-							<!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Ipsum available.</p> -->
 						</div>
 					</div>
 					<div class="dashboardBoxBg mt30">
@@ -69,31 +65,8 @@ include_once('header.php');
 							</div>
 						</div>
 					</div>
-					<!-- <div class="dashboardBoxBg mt30">
-						<div class="profileIntro">
-							<h3>Social Network</h3>
-							<div class="row">
-								<div class="form-group col-sm-6 col-xs-12">
-									<label for="linkedInUrl">Linked in URL</label>
-									<input type="text" class="form-control" id="linkedInUrl" placeholder="http://linkedin.com/listty">
-								</div>
-								<div class="form-group col-sm-6 col-xs-12">
-									<label for="facebookUrl">Facebook URL</label>
-									<input type="text" class="form-control" id="facebookUrl" placeholder="http://facebook.com/listty">
-								</div>
-								<div class="form-group col-sm-6 col-xs-12">
-									<label for="twitterUrl">Twitter URL</label>
-									<input type="text" class="form-control" id="twitterUrl" placeholder="http://twitter.com/listty">
-								</div>
-								<div class="form-group col-sm-6 col-xs-12">
-									<label for="youTubeUrl">You Tube URL</label>
-									<input type="text" class="form-control" id="youTubeUrl" placeholder="http://youtube.com/listty">
-								</div>
-							</div>
-						</div>
-					</div> -->
 					<div class="btn-area mt30">
-						<button class="btn btn-primary" type="button">Save Change</button>
+						<button class="btn btn-primary" type="button" id="save_changes">Save Change</button>
 					</div>
 					<div class="dashboardBoxBg mt30">
 						<div class="profileIntro">
@@ -112,7 +85,7 @@ include_once('header.php');
 									<input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
 								</div>
 								<div class="form-group col-xs-12">
-									<button class="btn btn-primary" type="button">Change Password</button>
+									<button class="btn btn-primary" id="change_action" type="button">Change Password</button>
 								</div>
 							</div>
 						</div>
@@ -122,6 +95,24 @@ include_once('header.php');
 		</div>
 	</div>
 </section>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery( "#change_action" ).click(function() {
+			swal({
+			  title: 'Password Updated!',
+			  text: 'Your password has been successfully changed!',
+			  type: 'success'
+			});
+		});
+		jQuery( "#save_changes" ).click(function() {
+			swal({
+			  title: 'Profile Updated',
+			  text: 'The changes to your profile has been saved successfully!',
+			  type: 'success'
+			});
+		});
+	});
+</script>
 <?php
 include_once('footer.php');
 ?>

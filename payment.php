@@ -114,11 +114,11 @@
 	jQuery(document).ready(function() {
 		jQuery('form').submit(function(evt) {
 			evt.preventDefault();
-			swal('Payment Complete.', 'Payment Complete!', 'success');
 			swal({
 			  title: 'Payment Complete!',
 			  text: 'Redirecting in 3 seconds..',
-			  timer: 3000
+			  timer: 3000,
+			  type: 'success'
 			}).then(
 			  function () {window.location = "/smfc_hackathon/index.php";},
 			  // handling the promise rejection
