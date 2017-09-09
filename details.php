@@ -1,5 +1,5 @@
 <?php 
-	$page_header = 'Home';
+	$page_header = 'Details';
 	include_once('header.php');
 	$str = file_get_contents('data.json');
 	$json = json_decode($str, true);
